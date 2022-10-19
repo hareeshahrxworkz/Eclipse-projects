@@ -11,8 +11,9 @@ public class College {
 	public String [] branchas;
 	public String [] collegeNames;
 	public String [] places;
+	public String [] collageColors;
 	
-	public College( String collegeLocation,int noOfColleges,String [] branchas,int noOfBranchas ,String [] places,String collegePrinciple,String [] collegeNames) {
+	public College( String collegeLocation,String [] collageColors,int noOfColleges,String [] branchas,int noOfBranchas ,String [] places,String collegePrinciple,String [] collegeNames) {
 this.collegeLocation=collegeLocation;
 this.noOfColleges=noOfColleges;
 this.noOfBranchas=noOfBranchas;
@@ -20,10 +21,11 @@ this.collegePrinciple=collegePrinciple;
 this.branchas=branchas;
 this.collegeNames=collegeNames;
 this.places=places;
+this.collageColors=collageColors;
 
 	
 	}	
-	public void Display()
+	public void display()
 	{
 		System.out.println("Printing naditha Ede");
 		

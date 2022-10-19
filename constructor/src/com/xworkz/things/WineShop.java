@@ -31,7 +31,7 @@ public class WineShop {
 		
 	
 	}
-	public void Display()
+	public void display()
 	{
 		System.out.println(wineShopOwnerName);
 		System.out.println(shopContactNo);

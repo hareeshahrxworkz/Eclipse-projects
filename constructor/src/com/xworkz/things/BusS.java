@@ -8,13 +8,13 @@ public class BusS {
 	public String depoLocation;
 	public String pass;
 	public int noOfMechanic ;
-	
+	public String [] busRoot;
 	public String [] busColor;
 	public String [] busNo;
 	public String [] busNameType;
 	public String depotLocation[];
 	
-	public BusS(String busDepo,String [] busColor,String deponame,String [] busNo,String depoManager,String depoLocation,String [] busNameType,String pass,String depotLocation[],int noOfMechanic) {
+	public BusS(String busDepo,String [] busRoot,String [] busColor,String deponame,String [] busNo,String depoManager,String depoLocation,String [] busNameType,String pass,String depotLocation[],int noOfMechanic) {
 		this.busDepo=busDepo;
 		this.depoLocation=depoLocation;
 		this.deponame=deponame;
@@ -80,6 +80,16 @@ public class BusS {
 		for (int i = 0; i < depotLocation.length; i++) {
 			
 			System.out.println(depotLocation[i]);
+			
+		}
+		
+		System.out.println(System.lineSeparator());
+		System.out.println("busRoot Printing naditha ede ");
+		
+		
+		for (int i = 0; i < busRoot.length; i++) {
+			
+			System.out.println(busRoot[i]);
 			
 		}
 

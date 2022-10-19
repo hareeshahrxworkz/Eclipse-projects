@@ -8,10 +8,11 @@ public class CollegeRunner {
 		 String [] branchas={"CSE","ECS","ME","Civi","Automobile"};
 		 String [] collegeNames= {"GEC Chamarajanagar","GEC Hassan","GEC KUshalNAgar"};
 		 String [] places= {"chamarajanagara","hassan","mandya","davanagere"};
-		
-		 College college= new College("Davanagere", 2, branchas, 4, places, "Venkatesh", collegeNames);
+		 String [] collageColors= {"White","Red","brown","yellow"};
+
+		 College college= new College("Davanagere",collageColors, 2, branchas, 4, places, "Venkatesh", collegeNames);
 		 
-		 college.Display();
+		 college.display();
 	}
 	
 
