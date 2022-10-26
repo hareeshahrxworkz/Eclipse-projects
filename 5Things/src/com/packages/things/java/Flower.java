@@ -18,8 +18,7 @@ public class Flower {
 	
 	
 	
-	public Flower(String address, double price,FlowerName flower) {
-		super();
+	public void setFlower(String address, double price,FlowerName flower) {
 		this.address = address;
 		this.price = price;
 		this.flower = flower;

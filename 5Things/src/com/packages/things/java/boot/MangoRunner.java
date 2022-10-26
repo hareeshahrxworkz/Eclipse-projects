@@ -8,7 +8,8 @@ public class MangoRunner {
 	public static void main(String[] args) {
 
 			
-		Mango mango=new Mango(Location.CHITRADURGA, 500);
+		Mango mango=new Mango();
+		mango.setMango(Location.CHITRADURGA, 500);
 		mango.weight=0.30;
 		mango.display();
 		

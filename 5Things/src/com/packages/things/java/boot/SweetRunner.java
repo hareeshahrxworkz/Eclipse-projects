@@ -7,8 +7,9 @@ public class SweetRunner {
 
 	public static void main(String[] args) {
 
-		
-		Sweet sweet =new  Sweet(Constant.JAHANGEER, 9900775088L);
+		Sweet sweet=new Sweet();		
+
+		sweet.setSweet(Constant.JAHANGEER, 9900775088L);
 		
 		sweet.address="Banglore";
 		

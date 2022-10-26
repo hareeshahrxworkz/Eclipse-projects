@@ -14,7 +14,7 @@ public class Mango {
 	public  double weight;
 	
 	
-	public Mango(Location loction, double price) {
+	public void  setMango(Location loction, double price) {
 		this.loction = loction;
 		this.price = price;
 	}

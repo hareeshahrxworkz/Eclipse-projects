@@ -9,7 +9,7 @@ public class Sweet {
 	public String address;
 	
 	
-	public Sweet(Constant constant, long contactNo) {
+	public void setSweet(Constant constant, long contactNo) {
 		this.constant = constant;
 		this.contactNo=contactNo;
 	}

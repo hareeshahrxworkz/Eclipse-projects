@@ -8,7 +8,8 @@ public class FlowerRunner {
 	public static void main(String[] args) {
 
 		
-		Flower flower =new Flower("Nlamangala", 2500,FlowerName.ROSE);
+		Flower flower =new Flower();
+		flower.setFlower("Nlamangala", 2500,FlowerName.ROSE);
 		flower.dipslay();
 		
 		

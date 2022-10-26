@@ -16,7 +16,9 @@ public class Cracker {
 	public double price;
 	public String address;
 	public long contactNo;
-	public Cracker( double price, String address) {
+	
+	
+	public void setCracker( double price, String address) {
 		this.price = price;
 		this.address = address;
 	}

@@ -7,8 +7,8 @@ public class CrackerRunner {
 	public static void main(String[] args) {
 		
 		
-		Cracker cracke=new Cracker( 200, "Rajajinagara");
-		
+		Cracker cracke=new Cracker();
+		cracke.setCracker( 200, "Rajajinagara");
 cracke.contactNo=9900775088L;
 			cracke.display();
 	}

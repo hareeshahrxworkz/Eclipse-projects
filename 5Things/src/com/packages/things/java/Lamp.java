@@ -12,7 +12,7 @@ public class Lamp {
 	public double price;
 	public String mfgDate;
 	public double watts;
-	public Lamp(Color color, double price, String mfgDate) {
+	public void setLamp(Color color, double price, String mfgDate) {
 		this.color = color;
 		this.price = price;
 		this.mfgDate = mfgDate;

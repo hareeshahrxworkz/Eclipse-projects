@@ -7,7 +7,8 @@ public class MilkRunner {
 
 	public static void main(String[] args) {
 
-		Milk milk=new Milk(MilkBrand.DUDSAGAR, "25-11-2022");
+		Milk milk=new Milk();
+		milk.setMilk(MilkBrand.DUDSAGAR, "25-11-2022");
 		milk.price=50;
 		milk.display();
 			

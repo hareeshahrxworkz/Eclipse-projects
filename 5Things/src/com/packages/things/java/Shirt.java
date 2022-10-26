@@ -13,7 +13,7 @@ public class Shirt {
 	public String address;
 	public double price =500;
 	public long contacuNo;
-	public Shirt(ShirtBrand brand, String address, double price) {
+	public void setShirt(ShirtBrand brand, String address, double price) {
 		this.brand = brand;
 		this.address = address;
 		this.price = price;

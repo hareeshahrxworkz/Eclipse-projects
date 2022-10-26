@@ -15,7 +15,7 @@ public class Milk {
 	public String expDate;
 	
 	
-	public Milk(MilkBrand milkbrand, String expDate) {
+	public void setMilk(MilkBrand milkbrand, String expDate) {
 
 		this.milkbrand = milkbrand;
 		this.expDate = expDate;
