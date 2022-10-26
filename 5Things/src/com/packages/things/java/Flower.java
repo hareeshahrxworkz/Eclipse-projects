@@ -1,41 +1,33 @@
 package com.packages.things.java;
 
-
-
 public class Flower {
-	 public enum FlowerName{
-			
-			ROSE,LOTUS,JASMINE,SUNFLOUR,TULIP;
-			
-			
-		}
+	public enum FlowerName {
 
-	public static String  FlowerCompany=" Roses are Red";
-	public FlowerName flower=FlowerName.SUNFLOUR;
+		ROSE, LOTUS, JASMINE, SUNFLOUR, TULIP;
+
+	}
+
+	public static String FlowerCompany = " Roses are Red";
+	public FlowerName flower = FlowerName.SUNFLOUR;
 	public String address;
-	public long contactNo=9900775088L;
+	public long contactNo = 9900775088L;
 	public double price;
-	
-	
-	
-	public void setFlower(String address, double price,FlowerName flower) {
+
+	public void setFlower(String address, double price, FlowerName flower) {
 		this.address = address;
 		this.price = price;
 		this.flower = flower;
 
 	}
-	
-	
-	public void  dipslay(){
-		
+
+	public void dipslay() {
+
 		System.out.println(FlowerCompany);
 		System.out.println(this.flower);
 		System.out.println(this.address);
 		System.out.println(this.contactNo);
 		System.out.println(this.price);
 
-		
 	}
-			
 
 }

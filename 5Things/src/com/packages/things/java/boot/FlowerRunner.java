@@ -9,7 +9,7 @@ public class FlowerRunner {
 
 		
 		Flower flower =new Flower();
-		flower.setFlower("Nlamangala", 2500,FlowerName.ROSE);
+		flower.setFlower("Nelamangala", 2500,FlowerName.ROSE);
 		flower.dipslay();
 		
 		

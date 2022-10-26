@@ -1,24 +1,25 @@
 package com.packages.things.java;
 
 public class Lamp {
-	
-	public enum Color{
-	
-		WHITE,BLUE,YELLOW,RED,GREEN;
-		
+
+	public enum Color {
+
+		WHITE, BLUE, YELLOW, RED, GREEN;
+
 	}
-	public static String brand="Valaista";
+
+	public static String brand = "Valaista";
 	public Color color;
 	public double price;
 	public String mfgDate;
 	public double watts;
+
 	public void setLamp(Color color, double price, String mfgDate) {
 		this.color = color;
 		this.price = price;
 		this.mfgDate = mfgDate;
 	}
-	
-	
+
 	public void disply() {
 		System.out.println(brand);
 		System.out.println(this.color);
@@ -27,6 +28,5 @@ public class Lamp {
 		System.out.println(this.watts);
 
 	}
-	
 
 }
