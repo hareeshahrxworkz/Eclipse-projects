@@ -24,7 +24,7 @@ public class Temple {
 
 	public void showoff()
 	{
-		System.out.println("Temple pringting naditide gothhenu");
+		System.out.println("Temple printing naditide gothhenu");
 		System.out.println(this.name);
 		System.out.println(this.mainPriest);
 		System.out.println(this.noOfVisitors);

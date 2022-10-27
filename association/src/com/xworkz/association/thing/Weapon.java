@@ -18,7 +18,7 @@ public class Weapon {
 
 	public void showoff()
 	{
-		System.out.println("Weopn printhing nadithaede sir");
+		System.out.println("Weopn printing nadithaede sir");
 		
 		System.out.println(this.name);
 		System.out.println(this.use);
