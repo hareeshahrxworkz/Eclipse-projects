@@ -2,12 +2,12 @@ package com.xworkz.association.many.things;
 
 public class City {
 	
-	public String cityName;
+	public Name cityName;
 	public String citycapital;
 	public double noOfCites;
 	public String  name; 
 		
-	public City(String cityName,String citycapital,double noOfCites)
+	public City(Name cityName,String citycapital,double noOfCites)
 	{
 		
 		this.citycapital=citycapital;
@@ -25,8 +25,11 @@ public class City {
 		
 		System.out.println("city printing");
 		System.out.println(this.citycapital);
-		System.out.println(this.cityName);
 		System.out.println(this.noOfCites);
+		if(cityName!=null)
+		{
+			this.cityName.display();
+		}
 		
 	}
 
