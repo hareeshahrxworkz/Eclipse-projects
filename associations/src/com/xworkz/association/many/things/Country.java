@@ -26,7 +26,6 @@ public class Country {
 		System.out.println(this.capital);
 		System.out.println(this.areaarround);
 
-
 		if (name != null) {
 
 			this.name.display();
@@ -34,9 +33,8 @@ public class Country {
 		}
 		if (cites != null) {
 			for (int i = 0; i < cites.length; i++) {
-				City city =cites[i];
-				if(city!=null)
-				{
+				City city = cites[i];
+				if (city != null) {
 					city.display();
 				}
 

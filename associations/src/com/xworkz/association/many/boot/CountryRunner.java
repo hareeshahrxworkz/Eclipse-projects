@@ -23,9 +23,7 @@ public class CountryRunner {
 		City [] cityes= {city,city1};
 		country.setCites(cityes);
 		
-		city.display();
 		country.display();
-
 		
 		
 		
