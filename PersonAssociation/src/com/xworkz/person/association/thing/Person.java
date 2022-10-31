@@ -6,14 +6,12 @@ public class Person {
 	public Email[] emails;
 	public Job job;
 
-	public Person(String name) {
-		this.name = name;
+	
 
-	}
-
-	public void setPerson(Email[] email, Job job) {
+	public void setPerson(String name,Email[] email, Job job) {
 		this.emails = email;
 		this.job = job;
+		this.name=name;
 	}
 
 	public void display() {
@@ -28,11 +26,11 @@ public class Person {
 
 				}
 			}
-			
-			if(job!=null)
-				
+
+			if (job != null)
+
 			{
-				
+
 				job.display();
 			}
 

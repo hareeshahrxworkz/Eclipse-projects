@@ -8,11 +8,11 @@ public class Location {
 	public State state;
 	public Country country;
 
-	public void setLocation(int no, String street,City city,State state, Country country) {
+	public void setLocation(int no, String street, City city, State state, Country country) {
 		this.no = no;
 		this.street = street;
-		this.city=city;
-		this.state=state;
+		this.city = city;
+		this.state = state;
 	}
 
 	public void display() {

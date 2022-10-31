@@ -9,7 +9,6 @@ public class Address {
 
 	public void display() {
 		System.out.println(System.lineSeparator());
-		System.out.println("addreess printing agtha ede");
 
 		if (this.location != null) {
 			location.display();

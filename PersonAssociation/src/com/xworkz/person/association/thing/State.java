@@ -2,15 +2,13 @@ package com.xworkz.person.association.thing;
 
 public class State {
 
-	public String name;
+	public StateName name;
 	public String capital;
 	public double areaAround;
 	public int noOfCites;
 	public Country country;
-	
-	
 
-	public State(String name, String capital, double areaAround, int noOfCites, Country country) {
+	public State(StateName name, String capital, double areaAround, int noOfCites, Country country) {
 		super();
 		this.name = name;
 		this.capital = capital;
@@ -18,8 +16,6 @@ public class State {
 		this.noOfCites = noOfCites;
 		this.country = country;
 	}
-
-
 
 	public void display() {
 		System.out.println(System.lineSeparator());
@@ -29,7 +25,7 @@ public class State {
 		System.out.println(this.areaAround);
 		System.out.println(this.noOfCites);
 		if (this.country != null) {
-			System.out.println(this.country);
+			this.country.display();
 
 		}
 	}

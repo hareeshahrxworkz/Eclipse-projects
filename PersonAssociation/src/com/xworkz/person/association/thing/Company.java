@@ -6,17 +6,12 @@ public class Company {
 	public String ownerName;
 	public Address address;
 
-	
-	
-	
 	public Company(String name, String ownerName, Address address) {
 		super();
 		this.name = name;
 		this.ownerName = ownerName;
 		this.address = address;
 	}
-
-
 
 	public void display() {
 		System.out.println(System.lineSeparator());

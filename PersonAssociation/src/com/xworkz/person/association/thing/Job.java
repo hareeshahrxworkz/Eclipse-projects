@@ -7,12 +7,12 @@ public class Job {
 	public boolean bond;
 	public Company company;
 
-	public Job(double salary, String role, boolean bond ,Company company ) {
+	public Job(double salary, String role, boolean bond, Company company) {
 		super();
 		this.salary = salary;
 		this.role = role;
 		this.bond = bond;
-		this.company=company;
+		this.company = company;
 	}
 
 	public void display() {
@@ -21,9 +21,8 @@ public class Job {
 		System.out.println(this.salary);
 		System.out.println(this.role);
 		System.out.println(this.bond);
-		if(company!=null)
-		{
-			
+		if (company != null) {
+
 			this.company.display();
 		}
 
