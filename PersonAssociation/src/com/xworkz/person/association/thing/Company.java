@@ -6,8 +6,7 @@ public class Company {
 	public String ownerName;
 	public Address address;
 
-	public Company(String name, String ownerName, Address address) {
-		super();
+	public void setCompany(String name, String ownerName, Address address) {
 		this.name = name;
 		this.ownerName = ownerName;
 		this.address = address;

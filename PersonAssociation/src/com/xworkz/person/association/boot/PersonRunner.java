@@ -15,16 +15,21 @@ import com.xworkz.person.association.thing.StateName;
 public class PersonRunner {
 
 	public static void main(String[] args) {
-		Country country = new Country(CountryName.INDIA, "Narendra Modi", "Delhi", 91);
-		State state = new State(StateName.KARNATAKA, "Banglore", 750, 10, country);
-		City city = new City("Banglore", "Bendakaluru", "Electronic city", "Cold");
+		Country country = new Country();
+		country.setCountry(CountryName.INDIA, "Narendra Modi", "Delhi", 91);
+		State state = new State();
+		state.setState(StateName.KARNATAKA, "Banglore", 750, 10, country);
+		City city = new City();
+		city.setCity("Banglore", "Bendakaluru", "Electronic city", "Cold");
 		Location location = new Location();
 		location.setLocation(20, "Rajajinagara", city, state, country);
 
 		Address address = new Address(location);
-		Company company = new Company("XworkZ", "Omkar", address);
+		Company company = new Company();
+		company.setCompany("XworkZ", "Omkar", address);
 
-		Job job = new Job(4.5, "Softwere developer", false, company);
+		Job job = new Job();
+		job.setJob(4.5, "Softwere developer", false, company);
 
 		Email email = new Email();
 		email.setEmail("mohan.xworkz@gmail", "mohan123m", 9900775088L, company);

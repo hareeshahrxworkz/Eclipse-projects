@@ -6,8 +6,7 @@ public class Country {
 	public String capitalCity;
 	public int countryCode;
 
-	public Country(CountryName countryname, String president, String capitalCity, int countryCode) {
-		super();
+	public void setCountry(CountryName countryname, String president, String capitalCity, int countryCode) {
 		this.countryname = countryname;
 		this.president = president;
 		this.capitalCity = capitalCity;

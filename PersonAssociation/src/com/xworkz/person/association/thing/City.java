@@ -7,7 +7,7 @@ public class City {
 	public String cityNewName;
 	public String Whether;
 
-	public City(String cityName, String cityOldName, String cityNewName, String Whether) {
+	public void setCity(String cityName, String cityOldName, String cityNewName, String Whether) {
 		this.cityName = cityName;
 		this.cityOldName = cityOldName;
 		this.cityNewName = cityNewName;

@@ -8,8 +8,7 @@ public class State {
 	public int noOfCites;
 	public Country country;
 
-	public State(StateName name, String capital, double areaAround, int noOfCites, Country country) {
-		super();
+	public void setState(StateName name, String capital, double areaAround, int noOfCites, Country country) {
 		this.name = name;
 		this.capital = capital;
 		this.areaAround = areaAround;

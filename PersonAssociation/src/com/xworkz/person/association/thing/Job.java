@@ -7,8 +7,7 @@ public class Job {
 	public boolean bond;
 	public Company company;
 
-	public Job(double salary, String role, boolean bond, Company company) {
-		super();
+	public void setJob(double salary, String role, boolean bond, Company company) {
 		this.salary = salary;
 		this.role = role;
 		this.bond = bond;
