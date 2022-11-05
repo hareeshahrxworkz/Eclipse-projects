@@ -4,6 +4,7 @@ public class CremeUse {
 	Creme creme;
 	public void useCreme(Creme creme)
 	{
+		creme.setBrand("tenture");
 		creme.setCreme("iceCreme", 10, 20,"Mahesh", "Eating", "white", 20, false, true, false, 2);
 		System.out.println(creme.getBrand());
 		System.out.println(creme.getColor());

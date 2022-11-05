@@ -2,7 +2,7 @@ package com.xworkz.encapsuletion.packages.thing;
 
 public class Creme {
 
-	public String brand;
+	private String brand;
 	public int quantity;
 	double price;
 	String owner;
@@ -28,7 +28,11 @@ public class Creme {
 		this.pimple = pimple;
 		this.quality = quality;
 	}
+	 void setBrand(String brand) {
+		this.brand = brand;
+	}
 
+	
 	public String getBrand() {
 		return brand;
 	}
