@@ -4,7 +4,7 @@ package com.xworkz.inheritance.things;
 public class SiliconCity extends MetroCity {
 	
 	
-	public void Silicon()
+	public SiliconCity()
 	{
 		System.out.println("SiliconCity Createing");
 		SiliconCity silicon = new SiliconCity();

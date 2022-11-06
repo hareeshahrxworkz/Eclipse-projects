@@ -2,7 +2,7 @@ package com.xworkz.inheritance.things;
 
 public class MetroCity extends City{
 
-	public void Metro()
+	public  MetroCity()
 	{
 	System.out.println("MetroCity Createing");
 	MetroCity metro=new MetroCity();

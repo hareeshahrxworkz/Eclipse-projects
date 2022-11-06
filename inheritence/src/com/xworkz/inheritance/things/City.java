@@ -2,7 +2,7 @@ package com.xworkz.inheritance.things;
 
 public class City extends Capital {
 	
-	public void cites() {
+	public  City() {
 	System.out.println("City Createing");
 	City city=new City();
 	Capital cap=new City();
