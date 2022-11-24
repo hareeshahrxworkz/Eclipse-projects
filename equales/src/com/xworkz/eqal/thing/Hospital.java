@@ -42,7 +42,7 @@ public class Hospital {
 
 			}
 			else {
-				System.out.println("Both are not equal");
+				System.err.println("Both are not equal");
 			}
 		}
 

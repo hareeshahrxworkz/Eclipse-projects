@@ -42,6 +42,9 @@ public class Vechile {
 
 				return true;
 			}
+			else {
+				System.err.println("is not match properties");
+			}
 		}
 		return false;
 	}

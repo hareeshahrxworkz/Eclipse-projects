@@ -42,6 +42,9 @@ public class Instutation {
 				return true;
 
 			}
+			else {
+				System.err.println("is not eqal");
+			}
 
 		}
 

@@ -50,7 +50,7 @@ public class Paint {
 			}
 			 else {
 
-					System.out.println("it is mis match eqals");
+					System.err.println("it is mis match eqals");
 				}
 
 		}

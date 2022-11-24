@@ -38,6 +38,9 @@ public class God {
 				System.out.println("GOd is Equal");
 				return true;
 			}
+			else {
+				System.err.println("is not match");
+			}
 
 		}
 

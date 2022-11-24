@@ -38,6 +38,9 @@ public class WateBottle {
 				System.out.println("printing equal");
 				return true;
 			}
+			else {
+				System.err.println("is not equal");
+			}
 		}
 		return false;
 	}

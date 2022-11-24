@@ -53,7 +53,7 @@ public class Lipstik {
 				 return true;
 			 }
 			 else {
-				 System.out.println("does not eqal in lipstik");
+				 System.err.println("does not eqal in lipstik");
 			 }
 		 }
 		 

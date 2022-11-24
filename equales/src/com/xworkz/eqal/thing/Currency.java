@@ -37,7 +37,7 @@ public class Currency {
 				System.out.println("both are equal");
 				return true;
 			} else {
-				System.out.println("both or not equal");
+				System.err.println("both or not equal");
 			}
 
 		}
