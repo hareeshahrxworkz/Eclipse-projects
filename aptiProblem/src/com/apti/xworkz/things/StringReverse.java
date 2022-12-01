@@ -5,20 +5,18 @@ public class StringReverse {
 	public static void main(String[] args) {
 		
 		String a = "harish is good boy",ns="";
-		char ch;
+		char []ch=a.toCharArray();
 //		
 //		String a1= a.replaceAll("\\s", "");
 //		
 //		System.out.println(a1);
 //		
-		
-		for (int i = 0; i < a.length(); i++) {
-			
-			ch=a.charAt(i);
-			ns=ch+ns;
-			
+		for(int i=ch.length-1;i>=0;i--)
+	{
+System.out.println(ch[i]);
 		}
-		System.out.println(ns);
+		
+		
 	
 	}
 
