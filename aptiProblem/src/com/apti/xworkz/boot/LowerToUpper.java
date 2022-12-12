@@ -3,23 +3,23 @@ package com.apti.xworkz.boot;
 public class LowerToUpper {
 	  
 	    public static void main(String[] args) {
-	        String s="lower";
+	        String s="UPPER";
 	        String result = "";
 	        char ch = ' ';
 	        for (int i = 0; i < s.length(); i++) {
 	            
-	            if (s.charAt(i) >= 'a' && s.charAt(i) <= 'z') {
-	                ch = (char)(s.charAt(i) - 32);
+	            if (s.charAt(i) >= 'A' && s.charAt(i) <= 'Z') {
+	                ch = (char)(s.charAt(i) + 32);
 	            }
 	            else {
 	                ch = (char)(s.charAt(i));
 	            }
 	            
-	            result += ch; 
+	            result =result+ ch; 
 	            
 	        }
 	        
-	        System.out.println();
+	        System.out.println(result);
 	        
 	            
 	    }

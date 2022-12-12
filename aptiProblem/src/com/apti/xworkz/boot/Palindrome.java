@@ -17,7 +17,7 @@ public class Palindrome {
 			System.out.println("is not palindrome " + rev);
 		}
 
-		String name = "kanak", store="", tem;
+		String name = "klnak", store="", tem;
 		tem = name;
 		char ch;
 		{
