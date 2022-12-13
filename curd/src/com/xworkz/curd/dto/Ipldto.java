@@ -19,6 +19,7 @@ public class Ipldto extends AbstractIpldto {
 				+ ", purse=" + purse + ", wins=" + wins + ", defeats=" + defeats + "]";
 	}
 
+	
 	public String getTeamName() {
 		return teamName;
 	}

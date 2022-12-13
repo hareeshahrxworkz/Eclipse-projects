@@ -4,10 +4,9 @@ import com.xworkz.curd.dto.Ipldto;
 
 public interface IpoRepo {
 	boolean create(Ipldto dto);
-	default int total()
-	{
+
+	default int total() {
 		return 0;
 	}
-	
 
 }

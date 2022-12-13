@@ -1,9 +1,10 @@
 package com.xworkz.curd.dto;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-public abstract class AbstractIpldto {
+public abstract class AbstractIpldto implements Serializable {
 
 	private String createdBy;
 	private LocalDateTime createDate;

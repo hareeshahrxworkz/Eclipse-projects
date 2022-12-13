@@ -1,26 +1,31 @@
 package com.xworkz.curd.repositary;
 
 import com.xworkz.curd.dto.Ipldto;
+import com.xworkz.curd.exeception.SizeExeedException;
 
 public class IplRepoImp implements IpoRepo {
 
-	private  Ipldto [] ipldtos = new Ipldto[10];
+	private Ipldto[] ipldtos = new Ipldto[6];
 	private int index = 0;
 
 	@Override
 	public boolean create(Ipldto dto) {
 		System.out.println("running iple implements repsitory" + dto);
-		if(this.index>=this.ipldtos.length) {
-			System.out.println("array size exceeded cannot add more ipl item");
-			return false;
+		if (this.index >= this.ipldtos.length) {
+			throw new SizeExeedException();
 		}
-		this.ipldtos[index]=dto;
+		this.ipldtos[index] = dto;
 		System.out.println("svaing ipl dto");
 		index++;
-		System.out.println("total elements is  :" +index);
+//		System.out.println("total elements is  :" + index);
 
-		
-		return false;
+		return true;
+	}
+
+	@Override
+
+	public int total() {
+		return index;
 	}
 
 }
