@@ -86,7 +86,9 @@ public class PizzaServiceimpl implements PizzaServices {
 
 		{
 			System.out.println("Entered Dto is Valid Detiles");
+			System.out.println(dto.toString());
 			return true;
+			
 		}
 		System.err.println("Entered Dto  NOT is Valid Detiles");
 
