@@ -20,14 +20,14 @@ public class AbstractAuditDTO implements Serializable {
 
 	
 	
-	public AbstractAuditDTO(String createdBy, LocalDateTime createdDate, String updatedBy, LocalDateTime updatedDate) {
-		super();
-		this.createdBy = createdBy;
-		this.createdDate = createdDate;
-		this.updatedBy = updatedBy;
-		this.updatedDate = updatedDate;
-	}
-
+//	public AbstractAuditDTO(String createdBy, LocalDateTime createdDate, String updatedBy, LocalDateTime updatedDate) {
+//		super();
+//		this.createdBy = createdBy;
+//		this.createdDate = createdDate;
+//		this.updatedBy = updatedBy;
+//		this.updatedDate = updatedDate;
+//	}
+//
 
 
 	public String getCreatedBy() {

@@ -16,7 +16,7 @@ public class WineShopRunner {
 		 
 //		 WineShop work=new WineShop(9900776425L,harddrink,price,"Shivajinagar","124565",winetype,"bottles image",wineColor,softDrink);
 		 WineShop work=new WineShop(9900775088L, harddrink, price, "shivaju nagar", "01ka2845", winetype, "bottels logo", wineColor, softDrink);
-		work.Display();
+		work.display();
 	}
 	
 	

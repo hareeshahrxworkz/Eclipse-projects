@@ -14,6 +14,9 @@ public class PizzaDto extends AbstractAuditDTO {
 	private String flavour;
 	private String type;
 
+	public PizzaDto() {
+		super("AVA", LocalDateTime.now(), "HHH", LocalDateTime.now());
+	}
 	
 	public PizzaDto(String createdBy, LocalDateTime createdDate, String updatedBy, LocalDateTime updatedDate,
 			String name, String company, PizzaSize size, boolean chese, double price, String flavour, String type) {
