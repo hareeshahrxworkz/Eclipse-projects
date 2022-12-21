@@ -4,7 +4,7 @@ public class Bread {
 
 	public  char type;
 	public  String shape;
-	public  double  price;
+	public  Integer  price;
 	public  int quantity;
 	public  String  companyName;
 
@@ -15,14 +15,14 @@ public class Bread {
 		this.type=type;
 		
 	}
-	public Bread(char type , double  price)
+	public Bread(char type , Integer  price)
 	{
 		
 		this.type=type;
 		
 		this.price=price;
 	}
-	public Bread(char type ,double price,String shape)
+	public Bread(char type ,Integer price,String shape)
 	{
 		
 		this.type=type;
@@ -36,7 +36,7 @@ public class Bread {
 		this.shape=shape;
 		
 	}
-	public Bread(double price)
+	public Bread(Integer price)
 	{
 		
 		this.price=price;
@@ -55,7 +55,7 @@ public class Bread {
 		this.companyName=companyName;
 		
 	}
-	public Bread(char type , String shape,double price,int quantity,String companyName)
+	public Bread(char type , String shape,Integer price,int quantity,String companyName)
 	{
 		
 		this.type=type;

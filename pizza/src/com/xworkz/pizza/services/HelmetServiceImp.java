@@ -17,7 +17,7 @@ public class HelmetServiceImp implements HelmetService {
 	public boolean validateAndSave(HelmetDTO dto) {
 
 		String name=dto.getName();
-		Double price=dto.getPrice();
+		Integer price=dto.getPrice();
 		HelmateType type=dto.getType();
 		Color color=dto.getColor();
 		boolean nameValid=false;

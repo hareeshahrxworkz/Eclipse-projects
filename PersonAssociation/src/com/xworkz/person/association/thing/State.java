@@ -4,11 +4,11 @@ public class State {
 
 	public StateName name;
 	public String capital;
-	public double areaAround;
+	public Integer areaAround;
 	public int noOfCites;
 	public Country country;
 
-	public void setState(StateName name, String capital, double areaAround, int noOfCites, Country country) {
+	public void setState(StateName name, String capital, Integer areaAround, int noOfCites, Country country) {
 		this.name = name;
 		this.capital = capital;
 		this.areaAround = areaAround;

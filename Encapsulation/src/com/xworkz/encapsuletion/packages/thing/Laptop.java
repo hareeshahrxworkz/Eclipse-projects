@@ -6,17 +6,17 @@ public class Laptop {
 	String processorBrand ;
 	String processorName ;
 	String graphicProcessor ;
-	double launchYear;
-	double capacityOfSSD ;
-	double price ;
+	Integer launchYear;
+	Integer capacityOfSSD ;
+	Integer price ;
 	int ram ;
 	int batteryBackUp ;
 	int warranty ;
 	
 	
 	
-	void setLaptop(String modelName, String processorBrand, String processorName, String graphicProcessor, double launchYear,
-			double capacityOfSSD, double price, int ram, int batteryBackUp, int warranty) {
+	void setLaptop(String modelName, String processorBrand, String processorName, String graphicProcessor, Integer launchYear,
+			Integer capacityOfSSD, Integer price, int ram, int batteryBackUp, int warranty) {
 		this.modelName = modelName;
 		this.processorBrand = processorBrand;
 		this.processorName = processorName;
@@ -40,13 +40,13 @@ public class Laptop {
 	public String getGraphicProcessor() {
 		return graphicProcessor;
 	}
-	public double getLaunchYear() {
+	public Integer getLaunchYear() {
 		return launchYear;
 	}
-	public double getCapacityOfSSD() {
+	public Integer getCapacityOfSSD() {
 		return capacityOfSSD;
 	}
-	public double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 	public int getRam() {

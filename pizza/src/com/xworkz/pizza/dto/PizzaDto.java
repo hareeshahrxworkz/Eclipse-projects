@@ -10,7 +10,7 @@ public class PizzaDto extends AbstractAuditDTO {
 	private String company;
 	private PizzaSize size;
 	private boolean chese;
-	private double price;
+	private Integer price;
 	private String flavour;
 	private String type;
 
@@ -19,7 +19,7 @@ public class PizzaDto extends AbstractAuditDTO {
 	}
 	
 	public PizzaDto(String createdBy, LocalDateTime createdDate, String updatedBy, LocalDateTime updatedDate,
-			String name, String company, PizzaSize size, boolean chese, double price, String flavour, String type) {
+			String name, String company, PizzaSize size, boolean chese, Integer price, String flavour, String type) {
 		super(createdBy, createdDate, updatedBy, updatedDate);
 		this.name = name;
 		this.company = company;
@@ -70,11 +70,11 @@ public class PizzaDto extends AbstractAuditDTO {
 		this.chese = chese;
 	}
 
-	public double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 
-	public void setPrice(double price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 

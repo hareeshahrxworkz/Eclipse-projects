@@ -4,10 +4,10 @@ public class City {
 	
 	public Name cityName;
 	public String citycapital;
-	public double noOfCites;
+	public Integer noOfCites;
 	public String  name; 
 		
-	public City(Name cityName,String citycapital,double noOfCites)
+	public City(Name cityName,String citycapital,Integer noOfCites)
 	{
 		
 		this.citycapital=citycapital;

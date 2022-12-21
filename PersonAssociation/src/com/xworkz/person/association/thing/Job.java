@@ -2,12 +2,12 @@ package com.xworkz.person.association.thing;
 
 public class Job {
 
-	public double salary;
+	public Integer salary;
 	public String role;
 	public boolean bond;
 	public Company company;
 
-	public void setJob(double salary, String role, boolean bond, Company company) {
+	public void setJob(Integer salary, String role, boolean bond, Company company) {
 		this.salary = salary;
 		this.role = role;
 		this.bond = bond;

@@ -11,9 +11,9 @@ public class Flower {
 	public FlowerName flower = FlowerName.SUNFLOUR;
 	public String address;
 	public long contactNo = 9900775088L;
-	public double price;
+	public Integer price;
 
-	public void setFlower(String address, double price, FlowerName flower) {
+	public void setFlower(String address, Integer price, FlowerName flower) {
 		this.address = address;
 		this.price = price;
 		this.flower = flower;

@@ -4,14 +4,14 @@ public class WateBottle {
 	private String brand;
 	private String name;
 	private int noOfBottels;
-	private double  price;
+	private Integer  price;
 	private String length;
 	private String width;
 	private String mfgDate;
 	private String expDate;
 	private String ownerName;
 	private String country;
-	public WateBottle(String brand, String name, int noOfBottels, double price, String length, String width,
+	public WateBottle(String brand, String name, int noOfBottels, Integer price, String length, String width,
 			String mfgDate, String expDate, String ownerName, String country) {
 		super();
 		this.brand = brand;
@@ -71,10 +71,10 @@ public class WateBottle {
 	public void setNoOfBottels(int noOfBottels) {
 		this.noOfBottels = noOfBottels;
 	}
-	public double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
-	public void setPrice(double price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 	public String getLength() {

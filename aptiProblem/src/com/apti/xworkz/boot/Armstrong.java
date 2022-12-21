@@ -3,7 +3,7 @@ package com.apti.xworkz.boot;
 public class Armstrong {
 	public static void main(String[] args) {
 		int num=1634,count=0 ,rem ,name=num	,orig=num;
-		double armstromg=0;
+		Integer armstromg=0;
 		
 		while(orig>0)
 		{

@@ -11,7 +11,7 @@ public class Dustbin {
 	public String country="india";
 	public String sticker="Plastic";
 	public String metal;
-	public double price;
+	public Integer price;
 	public String height;
 	public String weight;
 	public int quantity;

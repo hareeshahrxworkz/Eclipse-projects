@@ -10,12 +10,12 @@ public class Bekary {
 	
 	public String [] coolDrinks;
 	public String [] iceCreame;
-	public double [] cakePrice;
+	public Integer [] cakePrice;
 	public String [] snacks;
 	public String [] sweet;
 	public String [] biskete;
 
-	public Bekary(String location,long contactNO,String choclets, String [] iceCreame,double [] cakePrice,String Chips,String [] coolDrinks,String [] snacks,String [] sweet,String [] biskete ) 
+	public Bekary(String location,long contactNO,String choclets, String [] iceCreame,Integer [] cakePrice,String Chips,String [] coolDrinks,String [] snacks,String [] sweet,String [] biskete ) 
 	{
 	this.location=location;
 	this.contactNo=contactNO;
@@ -52,7 +52,7 @@ public class Bekary {
 		System.out.println(System.lineSeparator());
 
 		for (int i = 0; i < cakePrice.length; i++) {
-			double cakeprice = cakePrice[i];
+			Integer cakeprice = cakePrice[i];
 			System.out.println(cakeprice);			
 		}
 		System.out.println(System.lineSeparator());

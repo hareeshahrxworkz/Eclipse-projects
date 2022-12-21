@@ -19,7 +19,7 @@ public class RailwayStationServicesImpl implements RailwayStationServices {
 		String name = dto.getName();
 		String area = dto.getArea();
 		int platform = dto.getNoOfPlatForm();
-		Double ticket = dto.getPlatformTicketPrice();
+		Integer ticket = dto.getPlatformTicketPrice();
 		boolean nameValid = false;
 		boolean areaValid = false;
 		boolean ticketeValid = false;

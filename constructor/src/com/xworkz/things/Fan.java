@@ -3,9 +3,9 @@ package com.xworkz.things;
 public class Fan {
 	static String brandName="Bajaj";
 	public String shopeName;
-	public double price;
-	public double weight;
-	public double height;
+	public Integer price;
+	public Integer weight;
+	public Integer height;
 	public boolean stand;
 	
 	public String fanBrand [] ;
@@ -13,7 +13,7 @@ public class Fan {
 	public String [] Manufacturer;
 	public String [] countryOrigin;
 	
-	public Fan( String shopeName,String fanBrand [], double price ,String [] fanColors,double weight,String [] Manufacturer,double height,String [] countryOrigin,boolean stand) {
+	public Fan( String shopeName,String fanBrand [], Integer price ,String [] fanColors,Integer weight,String [] Manufacturer,Integer height,String [] countryOrigin,boolean stand) {
 
 		this.shopeName=shopeName;
 		this.fanColors=fanColors;

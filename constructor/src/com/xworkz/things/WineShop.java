@@ -10,12 +10,12 @@ public class WineShop {
 	public  String logo;
 	
 	public String [] harddrink;
-	public double [] price;
+	public Integer [] price;
 	public String [] winetype;
 	public  String [] wineColor;
 	public String [] softDrink;
 	
-	public WineShop(long shopContactNo,String [] harddrink,double [] price,String address,String wineshopLicence,String [] winetype,String logo,String [] wineColor, String [] softDrink) {
+	public WineShop(long shopContactNo,String [] harddrink,Integer [] price,String address,String wineshopLicence,String [] winetype,String logo,String [] wineColor, String [] softDrink) {
 
 		this.shopContactNo=shopContactNo;
 		

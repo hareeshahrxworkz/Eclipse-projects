@@ -10,11 +10,11 @@ public class Mango {
 	public static String  brand="Mango Masti";
 	public  Location loction;
 	public String color="Yellow";
-	public double price;
-	public  double weight;
+	public Integer price;
+	public  Integer weight;
 	
 	
-	public void  setMango(Location loction, double price) {
+	public void  setMango(Location loction, Integer price) {
 		this.loction = loction;
 		this.price = price;
 	}

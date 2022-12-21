@@ -9,12 +9,12 @@ public class Metro {
 	String metroTiming;
 	String Souce;
 	String destination;
-	double price;
+	Integer price;
 	boolean available;
 	int noOfVisitors;
 
 	void setMetro(String directorName, String location, int noOfStations, String metroTiming, String souce,
-			String destination, double price, boolean available, int noOfVisitors) {
+			String destination, Integer price, boolean available, int noOfVisitors) {
 		DirectorName = directorName;
 		this.location = location;
 		this.noOfStations = noOfStations;
@@ -50,7 +50,7 @@ public class Metro {
 		return destination;
 	}
 
-	public double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 

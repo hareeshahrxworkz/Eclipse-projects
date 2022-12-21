@@ -5,17 +5,17 @@ public class Mobile {
 	public long contactNo;
 	public String mobileOwenerName;
 	public String landmark;
-	public double shopRent;
-	public double advance;
+	public Integer shopRent;
+	public Integer advance;
 	
 	public String [] mobileName;
 	public String [] color;
 	public String [] MobileAcceries;
-	public double [] priceList;
+	public Integer [] priceList;
 	public String [] typesOfbatterys;
 	
 	
-	public Mobile(String mobileShopName,String [] mobileName, long contactNo,String [] color,String mobileOwenerName, String [] MobileAcceries, String landmark,double shopRent,double [] priceList,double advance,String [] typesOfbatterys) {
+	public Mobile(String mobileShopName,String [] mobileName, long contactNo,String [] color,String mobileOwenerName, String [] MobileAcceries, String landmark,Integer shopRent,Integer [] priceList,Integer advance,String [] typesOfbatterys) {
 
 	this.mobileShopName=mobileShopName;
 	this.contactNo=contactNo;

@@ -8,7 +8,7 @@ public enum Location{
 	public static String shopeName="NIKIL saloon Shop";
 	public Location location;
 	public String gender;
-	public double price;
+	public Integer price;
 	public long contactNo=7619403108L;
 	
 	

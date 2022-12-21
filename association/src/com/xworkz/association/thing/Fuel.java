@@ -7,11 +7,11 @@ public class Fuel {
 	public Brand brand=new Brand("Petrol", 9865325l, Location.BANGLORE, 5);
 	public boolean special;
 	public Type type;
-	public double price;
-	public double quantity;
+	public Integer price;
+	public Integer quantity;
 	
 	
-	public Fuel(boolean special, Type type, double price, double quantity) {
+	public Fuel(boolean special, Type type, Integer price, Integer quantity) {
 		this.special = special;
 		this.type = type;
 		this.price = price;

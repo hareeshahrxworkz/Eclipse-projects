@@ -4,10 +4,10 @@ public class Country {
 	public Presedent name;
 	public String countryname;
 	public String capital;
-	public double areaarround;
+	public Integer areaarround;
 	public City[] cites;
 
-	public Country(Presedent name, String countryname, String capital, double areaarround) {
+	public Country(Presedent name, String countryname, String capital, Integer areaarround) {
 		super();
 		this.countryname = countryname;
 		this.capital = capital;

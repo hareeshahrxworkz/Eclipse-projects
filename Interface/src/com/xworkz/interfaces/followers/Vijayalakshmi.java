@@ -20,13 +20,13 @@ public class Vijayalakshmi extends JavaTrinee implements KarnatakaRTO {
 	}
 
 	@Override
-	public double gst() {
+	public Integer gst() {
 		System.out.println("Gst Running");
 		return 0;
 	}
 
 	@Override
-	public double vat() {
+	public Integer vat() {
 		System.out.println("vat Running");
 		return 0;
 	}

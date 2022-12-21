@@ -3,7 +3,7 @@ package com.xworkz.things;
 public class Gyarage {
 	public String gyarageName;
 	public long conatatNo;
-	public double licenceAmount;
+	public Integer licenceAmount;
 	public int licenceNo;
 	public String gyarageOwnerName;
 	public boolean serviceAvailable;
@@ -11,10 +11,10 @@ public class Gyarage {
 	public String[] accories;
 	public int [] membersalarys;
 	public String [] oilName;
-	public double oilPrice [];
+	public Integer oilPrice [];
 	
 	
-	public Gyarage( String gyarageName, String[] accories,long conatatNo,int [] membersalarys,double licenceAmount,String [] oilName,int licenceNo,String gyarageOwnerName, double oilPrice [],boolean serviceAvailable) {
+	public Gyarage( String gyarageName, String[] accories,long conatatNo,int [] membersalarys,Integer licenceAmount,String [] oilName,int licenceNo,String gyarageOwnerName, Integer oilPrice [],boolean serviceAvailable) {
 		this.gyarageName=gyarageName;
 		this.conatatNo=conatatNo;
 		this.licenceAmount=licenceAmount;

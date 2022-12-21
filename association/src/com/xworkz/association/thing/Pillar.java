@@ -5,12 +5,12 @@ public class Pillar {
 	public int id;
 	public String place;
 	public Shape shape;
-	public double height;
+	public Integer height;
 	public String support;
 	public Company company=new Company("TMT", "Steel");
 	
 	
-	public Pillar(int id, String place, Shape shape, double height, String support) {
+	public Pillar(int id, String place, Shape shape, Integer height, String support) {
 		this.id = id;
 		this.place = place;
 		this.shape = shape;

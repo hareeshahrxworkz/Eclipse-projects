@@ -9,12 +9,12 @@ public class Photo {
 	String colour;
 	String mountingType;
 	String shape;
-	double weight;
+	Integer weight;
 	String brand;
 	boolean damage;
 
 	void setPhoto(char size, boolean quality, int quantity, int price, String colour, String mountingType, String shape,
-			double weight, String brand, boolean damage) {
+			Integer weight, String brand, boolean damage) {
 		this.size = size;
 		Quality = quality;
 		this.quantity = quantity;
@@ -55,7 +55,7 @@ public class Photo {
 		return shape;
 	}
 
-	public double getWeight() {
+	public Integer getWeight() {
 		return weight;
 	}
 

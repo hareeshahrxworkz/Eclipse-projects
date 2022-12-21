@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 public class HelmetDTO extends AbstractAuditDTO{
 
 	private String name;
-	private Double price;
+	private Integer price;
 	private Color color;
 	private HelmateType type;
 	
@@ -18,7 +18,7 @@ public class HelmetDTO extends AbstractAuditDTO{
 
 
 
-	public HelmetDTO(String name, Double price, com.xworkz.pizza.dto.Color color, HelmateType type) {
+	public HelmetDTO(String name, Integer price, com.xworkz.pizza.dto.Color color, HelmateType type) {
 		super();
 		this.name = name;
 		this.price = price;
@@ -47,13 +47,13 @@ public class HelmetDTO extends AbstractAuditDTO{
 
 
 
-	public Double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 
 
 
-	public void setPrice(Double price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 

@@ -7,14 +7,14 @@ public class Vichal {
 	int nofVichals;
 	String delivery;
 	String nofVisitors;
-	double price;
+	Integer price;
 	long contactNo;
 	String location;
 	String state;
 	String country;
 	
 
-	void setVichal(String ownerName, int nofVichals, String delivery, String nofVisitors, double price, long contactNo,
+	void setVichal(String ownerName, int nofVichals, String delivery, String nofVisitors, Integer price, long contactNo,
 			String location, String state, String country) {
 		this.ownerName = ownerName;
 		this.nofVichals = nofVichals;
@@ -43,7 +43,7 @@ public class Vichal {
 		return nofVisitors;
 	}
 
-	public double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 

@@ -4,7 +4,7 @@ public class Crecket {
 	
 	public String place;
 	public String groungName;
-	public double entryPrice;
+	public Integer entryPrice;
 	public String groung_Color;
 	public int noOfSeats;
 	public boolean playing;
@@ -13,10 +13,10 @@ public class Crecket {
 	public String alroungPylayar [];
 	public String bolers[];
 	public String weketkeepers[];
-	public double salary[];
+	public Integer salary[];
 	
 	
-	public Crecket(String place,String playersName [], String groungName, String alroungPylayar [],double entryPrice,String groung_Color,String bolers[],int noOfSeats,String weketkeepers[],boolean playing,double salary[])
+	public Crecket(String place,String playersName [], String groungName, String alroungPylayar [],Integer entryPrice,String groung_Color,String bolers[],int noOfSeats,String weketkeepers[],boolean playing,Integer salary[])
 	{
 		this.place=place;
 		this.groungName=groungName;

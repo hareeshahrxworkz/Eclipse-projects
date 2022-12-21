@@ -6,12 +6,12 @@ public class Mountain {
 	
 	public String name;
 	public Locations location=new Locations("MUllayyanagiru", "Chikkamagaluru", "Karnataka", 577542, "India");
-	public double height;
+	public Integer height;
 	public Temple temple=new Temple("Shiva Temple", "hindhu", 1200, 4500);
 	
 	
 	
-	public Mountain(String name, double height) {
+	public Mountain(String name, Integer height) {
 		super();
 		this.name = name;
 		this.height = height;

@@ -1,6 +1,6 @@
 package com.apti.xworkz.things;
 
-public class DoubleArray {
+public class IntegerArray {
 
 
 	public int twice(int dad, int son) 

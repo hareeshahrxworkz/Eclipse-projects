@@ -11,7 +11,7 @@ public class Milk {
 	public static String color="WHITE";
 	public MilkBrand milkbrand ;
 	public String mfgDate="26-10-2022";	
-	public double price;
+	public Integer price;
 	public String expDate;
 	
 	

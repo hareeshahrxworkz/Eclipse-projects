@@ -5,7 +5,7 @@ public class Ipldto extends AbstractIpldto {
 	private String teamName;
 	private  String captionName;
 	private  boolean onowerAlive;
-	private double purse;
+	private Integer purse;
 	private  int wins;
 	private  int defeats;
 	
@@ -44,11 +44,11 @@ public class Ipldto extends AbstractIpldto {
 		this.onowerAlive = onowerAlive;
 	}
 
-	public double getPurse() {
+	public Integer getPurse() {
 		return purse;
 	}
 
-	public void setPurse(double purse) {
+	public void setPurse(Integer purse) {
 		this.purse = purse;
 	}
 

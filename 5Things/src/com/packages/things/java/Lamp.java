@@ -10,11 +10,11 @@ public class Lamp {
 
 	public static String brand = "Valaista";
 	public Color color;
-	public double price;
+	public Integer price;
 	public String mfgDate;
-	public double watts;
+	public Integer watts;
 
-	public void setLamp(Color color, double price, String mfgDate) {
+	public void setLamp(Color color, Integer price, String mfgDate) {
 		this.color = color;
 		this.price = price;
 		this.mfgDate = mfgDate;

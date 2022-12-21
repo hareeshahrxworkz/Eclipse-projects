@@ -6,7 +6,7 @@ public class Tea {
 	public String company="KT";
 	public String mfgDate="23-08-2021";
 	public String expDate="26-02-2023";
-	public double Price=60.5;
+	public Integer Price=60.5;
 	public String packet="Plastic";
 	public String teaShop="Rajajinagar ";
 	public String nameTeaShop="Manjunatha";

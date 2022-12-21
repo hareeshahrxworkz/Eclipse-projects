@@ -4,7 +4,7 @@ public class Paint {
 
 	private String brand;
 	private String name;
-	private double price;
+	private Integer price;
 	private String ownerName;
 	private String location;
 	private String state;
@@ -13,7 +13,7 @@ public class Paint {
 	private long contactNo;
 	private String source;
 
-	public Paint(String brand, String name, double price, String ownerName, String location, String state,
+	public Paint(String brand, String name, Integer price, String ownerName, String location, String state,
 			String country, int pincode, long contactNo, String source) {
 		super();
 		System.out.println("running constructor method");
@@ -65,7 +65,7 @@ public class Paint {
 		return name;
 	}
 
-	public double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 
@@ -105,7 +105,7 @@ public class Paint {
 		this.name = name;
 	}
 
-	public void setPrice(double price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 

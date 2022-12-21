@@ -7,14 +7,14 @@ public class Furnicture {
 	String items;
 	String location;
 	int NoofEmployees;
-	double price;
+	Integer price;
 	long contactNo;
 	String state;
 	String licenceNo;
 	int noOfVisitors;
 	String country;
 
-	void setFurnicture(String items, String location, int noofEmployees, double price, long contactNo, String state,
+	void setFurnicture(String items, String location, int noofEmployees, Integer price, long contactNo, String state,
 			String licenceNo, int noOfVisitors, String country) {
 		this.items = items;
 		this.location = location;
@@ -55,7 +55,7 @@ public class Furnicture {
 		return this.NoofEmployees;
 	}
 
-	public double getPrice() {
+	public Integer getPrice() {
 		return this.price;
 	}
 

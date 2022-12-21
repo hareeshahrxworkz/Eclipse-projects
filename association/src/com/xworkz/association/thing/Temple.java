@@ -8,11 +8,11 @@ public class Temple {
 	public God god=new God("Shiva", "male", "allpower");
 	public String mainPriest;
 	public int noOfVisitors;
-	public double collectionPerDay;
+	public Integer collectionPerDay;
 	
 	
 	
-	public Temple(String name, String mainPriest, int noOfVisitors, double collectionPerDay) {
+	public Temple(String name, String mainPriest, int noOfVisitors, Integer collectionPerDay) {
 		super();
 		this.name = name;
 		this.mainPriest = mainPriest;

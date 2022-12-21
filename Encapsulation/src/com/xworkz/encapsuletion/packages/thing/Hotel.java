@@ -4,7 +4,7 @@ public class Hotel {
 	private String hotelName = "RaviTeja 2* Hotel";
 	String ownerName;
 	String menu;
-	double price;
+	Integer price;
 	String location;
 	String gstNO;
 	int noOfWorkers;
@@ -13,7 +13,7 @@ public class Hotel {
 	public String servicetype;
 	int hotelRating;
 
-	public void setproperties(String ownerName, String menu, double price, String location, String gstNO,
+	public void setproperties(String ownerName, String menu, Integer price, String location, String gstNO,
 			int noOfWorkers, int seatingCapacity, boolean vegiterien, String servicetype, int hotelRating) {
 		this.ownerName = ownerName;
 		this.menu = menu;
@@ -35,7 +35,7 @@ public class Hotel {
 		return this.menu;
 	}
 
-	public double getPrice() {
+	public Integer getPrice() {
 		return this.price;
 	}
 

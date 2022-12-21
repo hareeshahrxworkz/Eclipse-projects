@@ -4,7 +4,7 @@ public class Creme {
 
 	private String brand;
 	public int quantity;
-	double price;
+	Integer price;
 	String owner;
 	String purpose;
 	String color;
@@ -14,7 +14,7 @@ public class Creme {
 	boolean pimple;
 	float quality;
 
-	void setCreme(String brand, int quantity, double price, String owner, String purpose, String color, float grams,
+	void setCreme(String brand, int quantity, Integer price, String owner, String purpose, String color, float grams,
 			boolean gelly, boolean white, boolean pimple, float quality) {
 		this.brand = brand;
 		this.quantity = quantity;
@@ -41,7 +41,7 @@ public class Creme {
 		return quantity;
 	}
 
-	public double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 

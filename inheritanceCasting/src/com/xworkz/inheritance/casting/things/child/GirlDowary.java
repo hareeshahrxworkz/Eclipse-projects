@@ -4,7 +4,7 @@ import com.xworkz.inheritance.casting.things.parent.Dowry;
 
 public class GirlDowary extends Dowry{
 	
-	public GirlDowary(String dowaryType, double amount, String chain) {
+	public GirlDowary(String dowaryType, Integer amount, String chain) {
 		super(dowaryType,amount,chain);
 		System.out.println("Dowary naditha ede");
 	}

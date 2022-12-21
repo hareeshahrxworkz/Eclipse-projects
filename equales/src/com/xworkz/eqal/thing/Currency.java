@@ -9,10 +9,10 @@ public class Currency {
 	private String color;
 	private String mark;
 	private String year;
-	private double price;
+	private Integer price;
 
 	public Currency(String currencyName, String country, boolean exchange, String mfgArea, String type, String color,
-			String mark, String year, double price) {
+			String mark, String year, Integer price) {
 		super();
 		this.currencyName = currencyName;
 		this.country = country;
@@ -117,11 +117,11 @@ public class Currency {
 		this.year = year;
 	}
 
-	public double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 
-	public void setPrice(double price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 

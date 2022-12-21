@@ -5,7 +5,7 @@ import com.xworkz.interfaces.rules.HospitalManagement;
 public class Doctor  implements HospitalManagement{
 
 	@Override
-	public double entryPrice() {
+	public Integer entryPrice() {
 		
 		
 		return 7;

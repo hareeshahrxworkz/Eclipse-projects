@@ -5,7 +5,7 @@ public class Perfume {
 	private String name;
 	String brandOwner;
 	String manufactureCountry;
-	double price;
+	Integer price;
 	String manufactureDate;
 	String expiryDate;
 	boolean quality;
@@ -13,7 +13,7 @@ public class Perfume {
 	String fragrance;
 	String colour;
 
-	void setPerfume(String name, String brandOwner, String manufactureCountry, double price, String manufactureDate,
+	void setPerfume(String name, String brandOwner, String manufactureCountry, Integer price, String manufactureDate,
 			String expiryDate, boolean quality, int quantity, String fragrance, String colour) {
 		this.name = name;
 		this.brandOwner = brandOwner;
@@ -35,7 +35,7 @@ public class Perfume {
 		return manufactureCountry;
 	}
 
-	public double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 

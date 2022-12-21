@@ -13,12 +13,12 @@ public class Cracker {
 	static  String Brand="Lakshmi";
 	public Cracke cracke=Cracke.CHINKANSTIK;
 	public String companyName="Vasantha Packaging Industry";
-	public double price;
+	public Integer price;
 	public String address;
 	public long contactNo;
 	
 	
-	public void setCracker( double price, String address) {
+	public void setCracker( Integer price, String address) {
 		this.price = price;
 		this.address = address;
 	}

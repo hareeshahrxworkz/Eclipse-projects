@@ -13,7 +13,7 @@ public class PaintRunner {
 
 	public static void main(String[] args) {
 
-		Paint paint = new Paint("Asian", "double", 500, "manoj", "banglore", "karnataka", "india", 577542,
+		Paint paint = new Paint("Asian", "Integer", 500, "manoj", "banglore", "karnataka", "india", 577542,
 				99007780555L, "bittlenut");
 
 		Paint paint1 = new Paint("aspair", "ligth", 700, "mamatha", "rajajinagar", "belagam", "india", 574578,

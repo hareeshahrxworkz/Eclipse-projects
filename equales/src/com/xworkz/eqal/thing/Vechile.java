@@ -8,14 +8,14 @@ public class Vechile {
 	private String companyName;
 	private String engine;
 	private String model;
-	private double price;
+	private Integer price;
 	private String location;
 	private String state;
 	private String distric;
 	private String country;
 
 	public Vechile(String brand, String name, String color, String companyName, String mngine, String model,
-			double price, String location, String state, String distric, String country) {
+			Integer price, String location, String state, String distric, String country) {
 		super();
 		this.brand = brand;
 		this.name = name;
@@ -80,7 +80,7 @@ public class Vechile {
 		return model;
 	}
 
-	public double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 
@@ -124,7 +124,7 @@ public class Vechile {
 		this.model = model;
 	}
 
-	public void setPrice(double price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 

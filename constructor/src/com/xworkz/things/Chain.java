@@ -3,7 +3,7 @@ package com.xworkz.things;
 public class Chain {
 	
 	public String type ;
-	public double price ;
+	public Integer price ;
 	public int  length ;
 	public String matirial ;
 	public int weight ;
@@ -20,13 +20,13 @@ public class Chain {
 		this.type=type;
 		
 	}
-	public Chain(String type ,double price) 
+	public Chain(String type ,Integer price) 
 	{
 		this(type);
 		this.price = price;
 
 	}
-	public Chain(double price,int length) 
+	public Chain(Integer price,int length) 
 	{
 		this("circle",price);
 		this.length = length;

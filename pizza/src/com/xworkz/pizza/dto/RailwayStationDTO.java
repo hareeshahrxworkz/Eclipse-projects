@@ -5,8 +5,8 @@ public class RailwayStationDTO  extends AbstractAuditDTO{
 	private String name;
 	private int noOfPlatForm;
 	private String area;
-	private Double platformTicketPrice;
-	public RailwayStationDTO(String name, int noOfPlatForm, String area, Double platformTicketPrice) {
+	private Integer platformTicketPrice;
+	public RailwayStationDTO(String name, int noOfPlatForm, String area, Integer platformTicketPrice) {
 		super();
 		this.name = name;
 		this.noOfPlatForm = noOfPlatForm;
@@ -36,10 +36,10 @@ public class RailwayStationDTO  extends AbstractAuditDTO{
 	public void setArea(String area) {
 		this.area = area;
 	}
-	public Double getPlatformTicketPrice() {
+	public Integer getPlatformTicketPrice() {
 		return platformTicketPrice;
 	}
-	public void setPlatformTicketPrice(Double platformTicketPrice) {
+	public void setPlatformTicketPrice(Integer platformTicketPrice) {
 		this.platformTicketPrice = platformTicketPrice;
 	}
 	

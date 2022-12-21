@@ -11,7 +11,7 @@ public class PizzaServiceimpl implements PizzaServices {
 		String company = dto.getCompany();
 		PizzaSize size = dto.getSize();
 		boolean chese = dto.isChese();
-		double price = dto.getPrice();
+		Integer price = dto.getPrice();
 		String flavour = dto.getFlavour();
 		String type = dto.getType();
 		boolean nameValidate = false;

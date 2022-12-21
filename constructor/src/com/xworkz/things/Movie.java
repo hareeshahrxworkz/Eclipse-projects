@@ -7,13 +7,13 @@ public class Movie {
 	public String DirectorName;
 	public String villen;
 	public boolean animation;
-	public double budject;
+	public Integer budject;
 	
 	public String [] Scene;
 	public String [] comedyens;
 	public String [] runninglocation;
 	
-public Movie(String heroName,String DirectorName,String villen, String [] Scene, boolean animation, String [] comedyens,double budject,String [] runninglocation) {
+public Movie(String heroName,String DirectorName,String villen, String [] Scene, boolean animation, String [] comedyens,Integer budject,String [] runninglocation) {
 
 	
 this.heroName=heroName;

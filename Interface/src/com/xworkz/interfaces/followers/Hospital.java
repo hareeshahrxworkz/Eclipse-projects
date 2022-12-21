@@ -13,7 +13,7 @@ public class Hospital {
 		{
 			System.out.println("Doctor null check sucessfully ");
 			
-				double entry=doctor.entryPrice();
+				Integer entry=doctor.entryPrice();
 				boolean follow=doctor.followingRules();
 			
 				

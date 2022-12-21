@@ -13,7 +13,7 @@ public class RMD {
 	public String mfgDate;
 	public String heigtht;
 	public String width;
-	public double Price;
+	public Integer Price;
 	public String state;
 	public String country;
 	public String founder;

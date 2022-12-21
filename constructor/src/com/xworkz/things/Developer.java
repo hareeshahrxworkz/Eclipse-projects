@@ -5,7 +5,7 @@ public class Developer {
 	public String name;
 	public String education;
 	public String experience;
-	public double salary;
+	public Integer salary;
 	public String company;
 	
 

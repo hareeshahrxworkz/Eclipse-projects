@@ -7,7 +7,7 @@ public class Cigarete {
 	public String barnd="Small";
 	public String length="5mm";
 	public boolean tobaco=true;
-	public double price=50.6;
+	public Integer price=50.6;
 	public String quality="Heigh Quality";
 	public String difTypesofCigarate="Small,King,Brustall,Lights";
 	public String color="White";
@@ -19,7 +19,7 @@ public class Cigarete {
 	public String state;
 	public String county;
 	public boolean available;
-	public double weight;
+	public Integer weight;
 
 	
 }

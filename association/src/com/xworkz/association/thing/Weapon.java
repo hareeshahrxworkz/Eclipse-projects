@@ -6,9 +6,9 @@ public class Weapon {
 	
 	public String name;
 	public String use;
-	public double weight;
+	public Integer weight;
 	
-	public Weapon(String name, String use, double weight) {
+	public Weapon(String name, String use, Integer weight) {
 		this.name = name;
 		this.use = use;
 		this.weight = weight;

@@ -6,7 +6,7 @@ public class Pg {
 	String PgOwnerName;
 	int nOfPeople;
 	String startingYear;
-	double rent;
+	Integer rent;
 	String location;
 	String State;
 	String Country;
@@ -14,7 +14,7 @@ public class Pg {
 	String ManageerName;
 	String Cooking;
 
-	void setPg(String pGName, String pgOwnerName, int nOfPeople, String startingYear, double rent, String location,
+	void setPg(String pGName, String pgOwnerName, int nOfPeople, String startingYear, Integer rent, String location,
 			String state, String country, String foodTimings, String manageerName, String cooking) {
 		PGName = pGName;
 		PgOwnerName = pgOwnerName;
@@ -45,7 +45,7 @@ public class Pg {
 		return startingYear;
 	}
 
-	public double getRent() {
+	public Integer getRent() {
 		return rent;
 	}
 

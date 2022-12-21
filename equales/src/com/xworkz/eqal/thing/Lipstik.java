@@ -4,7 +4,7 @@ public class Lipstik {
 
 	private String brand;
 	private String name;
-	private double price;
+	private Integer price;
 	private String colors;
 	private String gender;
 	private String skinTone;
@@ -14,7 +14,7 @@ public class Lipstik {
 	private String State;
 	private String country;
 
-	public Lipstik(String brand, String name, double price, String colors, String gender, String skinTone, String user,
+	public Lipstik(String brand, String name, Integer price, String colors, String gender, String skinTone, String user,
 			int no_Of_items, String distric, String state, String country) {
 		super();
 		this.brand = brand;
@@ -68,7 +68,7 @@ public class Lipstik {
 		return name;
 	}
 
-	public double getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 
@@ -112,7 +112,7 @@ public class Lipstik {
 		this.name = name;
 	}
 
-	public void setPrice(double price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 

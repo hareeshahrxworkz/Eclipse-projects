@@ -2,9 +2,9 @@ package com.apti.xworkz.boot;
 
 import java.util.Scanner;
 
-import com.apti.xworkz.things.DoubleArray;
+import com.apti.xworkz.things.IntegerArray;
 
-public class DoubleArrayRunner {
+public class IntegerArrayRunner {
 public static void main(String[] args) {
 
     int []array= {1,2,3,4,5};
@@ -17,7 +17,7 @@ public static void main(String[] args) {
     }
     
 	
-	DoubleArray doubles=new DoubleArray();
+	IntegerArray Integers=new IntegerArray();
 	
 	Scanner dadYears=new Scanner(System.in);
 	Scanner sonYears=new Scanner(System.in);
@@ -26,7 +26,7 @@ public static void main(String[] args) {
 	int sonYear=dadYears.nextInt();
 	
 	
-	int yearsAgo=doubles.twice( dadYear, sonYear);
+	int yearsAgo=Integers.twice( dadYear, sonYear);
 	
     System.out.println("Years Age"+yearsAgo);
     

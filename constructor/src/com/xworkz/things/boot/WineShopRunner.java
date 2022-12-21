@@ -6,7 +6,7 @@ public class WineShopRunner {
 
 	public static void main(String[] args) {
 		String [] harddrink={"MagicMovent","IB","OldMunk","RAJA","OT"};
-		 double [] price= {200,400,250,260,580};
+		 Integer [] price= {200,400,250,260,580};
 		 String [] winetype= {"Hard Drink","SoftDring","CoolDrinks"};
 		  String [] wineColor= {"White","brown","black","purple"};
 		 String [] softDrink= {"kingfisher","bakadi","Tubarong"}; 
