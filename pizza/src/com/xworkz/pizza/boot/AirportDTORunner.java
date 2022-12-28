@@ -23,7 +23,7 @@ public class AirportDTORunner {
 		airportDTOs.add(airportDTO3);
 		airportDTOs.add(airportDTO4);
 
-		boolean cheacking = airportDTO.equals(airportDTO4);
+		boolean cheacking = airportDTOs.contains(airportDTO4);
 		System.out.println(cheacking);
 
 	}

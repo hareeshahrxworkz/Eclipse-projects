@@ -20,7 +20,7 @@ public class PlacesRunner {
 		placesDTOs.add(dto2);
 		placesDTOs.add(dto3);
 		placesDTOs.add(dto4);
-		boolean cheak=dto.equals(dto4);
+		boolean cheak=placesDTOs.contains(dto4);
 		System.out.println(cheak);
 		
 	}

@@ -21,9 +21,9 @@ public class HolidayRunner {
 		collection.add(dto3);
 		collection.add(dto2);
 		collection.add(dto1);
-		collection.add(dto4);
+		collection.add(dto);
 
-		boolean cheacking = dto.equals(dto2);
+		boolean cheacking = collection.contains(dto2);
 		System.out.println(cheacking);
 
 	}

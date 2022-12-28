@@ -21,7 +21,7 @@ public class CalendaeDTORunner {
 		calenderDTOs.add(calenderDTO2);
 		calenderDTOs.add(calenderDTO1);
 		calenderDTOs.add(calenderDTO4);
-		boolean cheak=calenderDTO.equals(calenderDTO1);
+		boolean cheak=calenderDTOs.contains(calenderDTO1);
 		System.out.println(cheak);
 
 	}
