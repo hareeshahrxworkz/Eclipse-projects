@@ -2,6 +2,8 @@ package com.xworkz.pizza.boot;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.LinkedList;
+import java.util.TreeSet;
 
 import com.xworkz.pizza.dto.HolidayDTO;
 
@@ -15,7 +17,7 @@ public class HolidayRunner {
 		HolidayDTO dto3=new HolidayDTO("Dasarsa", "Wednesday", "Mattan");
 		HolidayDTO dto4=new HolidayDTO("Shivaratri", "thursday", "Olige");
 		
-		Collection<HolidayDTO>   collection=new ArrayList<HolidayDTO>();
+		Collection<HolidayDTO>   collection=new TreeSet();
 
 		collection.add(dto4);
 		collection.add(dto3);

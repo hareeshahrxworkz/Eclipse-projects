@@ -139,7 +139,7 @@ System.out.println("===================================================");
 		ref2.name="Monohar";
 		ref2.education="Bachular Engineering";
 		ref2.experience="4+ Years";
-		ref2.salary=7.5;
+		ref2.salary=7;
 		ref2.company="Cognizant";
 		
 		
@@ -153,7 +153,7 @@ System.out.println("===================================================");
 		ref2.name="Gopinath ";
 		ref2.education="MTech";
 		ref2.experience="7+ years";
-		ref2.salary=12.5;
+		ref2.salary=12;
 		ref2.company="Wipro";
 		System.out.println(ref2.name);
 		System.out.println(ref2.education);

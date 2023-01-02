@@ -10,7 +10,7 @@ public class MangoRunner {
 			
 		Mango mango=new Mango();
 		mango.setMango(Location.CHITRADURGA, 500);
-		mango.weight=0.30;
+		mango.weight=30;
 		mango.display();
 		
 		

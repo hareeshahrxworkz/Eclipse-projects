@@ -25,7 +25,7 @@ public class Tractor {
 	}
 	public Tractor( String color,String brand,Integer price)
 	{
-		this(100.0,brand);
+		this(100,brand);
 		this.color=color;
 	}
 	public Tractor( Integer price ,String color,String brand,int hp)

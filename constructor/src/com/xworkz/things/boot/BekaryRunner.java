@@ -8,7 +8,7 @@ public class BekaryRunner {
 
 		String [] cool= {"Mango","Sprite","Cococola","Bindhu","FIZZ","MountandDu"};
 		String [] iceCreame= {"coneIceCreame","Chokobar","Butterscratch","candy","CupIce"};
-		 Integer [] cakePrice = {230.0,150.0,350,270,420,300};
+		 Integer [] cakePrice = {230,150,350,270,420,300};
 		 String [] snacks= {"kara","Chekkali","kodbale","mysurepack"};
 	String [] sweet= {"peda","Raskul","applecake","honicake"};
 		 String [] biskete= {"pare-G","orio","happy happy","Goodday","Chaskamaska"};

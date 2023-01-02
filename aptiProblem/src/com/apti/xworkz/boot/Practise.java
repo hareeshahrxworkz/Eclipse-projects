@@ -7,7 +7,7 @@ public class Practise {
 	public static void main(String[] args) {
 
 		int num =9,org=num,arr=num, rem, rev = 0 ,fact=1 ,temp=num,count=0,flag=0;
-		Integer arm=0;
+		double arm=0;
 
 //		while (num > 0) {
 //

@@ -25,7 +25,7 @@ import com.xworkz.things.*;
 		System.out.println(fish2.height);
 		System.out.println(fish2.weight);
 
-		Fish fish3=new Fish(5,1.5,"Raghu");
+		Fish fish3=new Fish(5,1,"Raghu");
 		System.out.println(fish3.name);
 		System.out.println(fish3.type);
 		System.out.println(fish3.price);
@@ -133,7 +133,7 @@ import com.xworkz.things.*;
 		System.out.println(bread1.quantity);
 		System.out.println(bread1.companyName);
 
-		Bread bread2=new Bread('M',100.2,"Square");
+		Bread bread2=new Bread('M',100,"Square");
 		System.out.println(bread2.type);
 		System.out.println(bread2.shape);
 		System.out.println(bread2.price);

@@ -6,7 +6,7 @@ public class ChainingRunner {
 
 	public static void main(String[] args) {
 		
-		Tractor tractor=new Tractor("Power tractor",21,20000.0,"Escots","blue","2021");
+		Tractor tractor=new Tractor("Power tractor",21,20000,"Escots","blue","2021");
 		System.out.println(tractor.name);
 		System.out.println(tractor.brand);
 		System.out.println(tractor.color);

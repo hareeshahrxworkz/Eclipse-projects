@@ -11,7 +11,7 @@ public class LampRunner {
 		Lamp lamp=new Lamp();
 
 		lamp.setLamp(Color.BLUE, 250, "21-10-2022");
-		lamp.watts=6.5;
+		lamp.watts=6;
 		lamp.disply();
 		
 	}

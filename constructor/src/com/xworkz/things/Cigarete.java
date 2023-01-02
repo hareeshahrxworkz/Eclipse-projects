@@ -7,7 +7,7 @@ public class Cigarete {
 	public String barnd="Small";
 	public String length="5mm";
 	public boolean tobaco=true;
-	public Integer price=50.6;
+	public Integer price=50;
 	public String quality="Heigh Quality";
 	public String difTypesofCigarate="Small,King,Brustall,Lights";
 	public String color="White";

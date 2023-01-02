@@ -8,7 +8,7 @@ public class PillerRunner {
 	public static void main(String[] args) {
 
 		
-		Pillar piller=new Pillar(01, "Banglore", Shape.RECTANGULAR, 15.2, "Iron");
+		Pillar piller=new Pillar(01, "Banglore", Shape.RECTANGULAR, 15, "Iron");
 		
 		piller.showoff();
 		

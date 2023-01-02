@@ -98,7 +98,7 @@ public class ThingsRunner {
 	cigarete.state="Banglore";
 	cigarete.county="India";
 	cigarete.available=true;
-	cigarete.weight=10.3;
+	cigarete.weight=10;
 
 	System.out.println(cigarete.noofCigarets);
 	System.out.println(cigarete.Packagetype);

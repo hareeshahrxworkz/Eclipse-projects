@@ -5,7 +5,7 @@ public class PhotoUse {
 	Photo photo;
 	public void usephoto(Photo photo)
 	{
-		photo.setPhoto('U', true, 10, 200, "Red", "Squar", "circle", 2.5, "nion", false);
+		photo.setPhoto('U', true, 10, 200, "Red", "Squar", "circle", 2, "nion", false);
 		
 		System.out.println(photo.getBrand());
 		System.out.println(photo.getColour());

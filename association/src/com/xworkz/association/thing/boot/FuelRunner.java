@@ -7,7 +7,7 @@ public class FuelRunner {
 	
 	public static void main(String[] args) {
 		
-		Fuel fuel=new Fuel(true, Type.ESSER, 101.2, 1);
+		Fuel fuel=new Fuel(true, Type.ESSER, 101, 1);
 		fuel.showOff();
 		
 	}
