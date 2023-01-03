@@ -3,6 +3,7 @@ package com.xworkz.pizza.boot;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 import com.xworkz.pizza.constant.Type;
@@ -39,19 +40,19 @@ public class PalaceDTORunner {
 		dataBaseVenderDTOs.add(new DataBaseVenderDTO("Country", "Hareesha", Type.SQL, 6.1, 75));
 
 		Collection<CompanyCEODTO> companyCEODTOs = new LinkedList<CompanyCEODTO>();
-		companyCEODTOs.add(new CompanyCEODTO("Omkar", "Xworkz", 20, "india", "BE/Btech", true));
-		companyCEODTOs.add(new CompanyCEODTO("Hareesha", "TechRef", 14, "india", "BE/Btech/Bcom/Bse", false));
-		companyCEODTOs.add(new CompanyCEODTO("Ravi", "First America", 35, "india", "MBA/Mse/Mcom", true));
-		companyCEODTOs.add(new CompanyCEODTO("Madhu", "Signiwins", 38, "india", "BE/Msc/Btech/MBA", false));
-		companyCEODTOs.add(new CompanyCEODTO("Vinoda", "BNV", 7, "india", "BE/Btech/MCA", true));
+		companyCEODTOs.add(new CompanyCEODTO("Omkar", "Xworkz", 20, "india", "BE/Btech", true,new DaugtherDTO("Shilpa", 9900775088L, 21, false, true)));
+		companyCEODTOs.add(new CompanyCEODTO("Hareesha", "TechRef", 14, "india", "BE/Btech/Bcom/Bse", false,new DaugtherDTO("Vinutha", 7022537779L, 25, true, true)));
+		companyCEODTOs.add(new CompanyCEODTO("Ravi", "First America", 35, "india", "MBA/Mse/Mcom", true,new DaugtherDTO("Bhavana ", 9244537206L, 38, false, false)));
+		companyCEODTOs.add(new CompanyCEODTO("Madhu", "Signiwins", 7, "india", "BE/Msc/Btech/MBA", false,new DaugtherDTO("Gouri", 7464578945L, 0, true, false)));
+		companyCEODTOs.add(new CompanyCEODTO("Vinoda", "BNV", 38, "india", "BE/Btech/MCA", true,new DaugtherDTO("amulya", 6352145144L, 35, true, false)));
 		
 
 		Collection<DaugtherDTO> daugtherDTOs = new LinkedList<DaugtherDTO>();
-		daugtherDTOs.add(new DaugtherDTO("Shilpa", 9900775088L, 21, false, true));
-		daugtherDTOs.add(new DaugtherDTO("Vinutha", 7022537779L, 25, true, true));
-		daugtherDTOs.add(new DaugtherDTO("Bhavana ", 9244537206L, 38, false, false));
-		daugtherDTOs.add(new DaugtherDTO("Gouri", 7464578945L, 0, true, false));
-		daugtherDTOs.add(new DaugtherDTO("amulya", 6352145144L, 35, true, false));
+//		daugtherDTOs.add();
+//		daugtherDTOs.add);
+//		daugtherDTOs.add();
+//		daugtherDTOs.add();
+//		daugtherDTOs.add();
 
 //	find all the properties Palace DTO which is Not Destroyed	
 
@@ -106,12 +107,11 @@ public class PalaceDTORunner {
 		companyCEODTOs.stream().filter(ele -> ele.getAges() > 30).collect(Collectors.toList())
 				.forEach(ele -> System.out.println(ele));
 
-//	print Below formate from CompanyCetdto  father age 7 daughter age 0
+//	print Below formate from CompanyCEOdto  father age 7 daughter age 0
 
 		System.out.println(System.lineSeparator());
 		System.out.println("print Below formate from CompanyCetdto  father age 7 doughter age 0");
-		daugtherDTOs.stream().filter(ele->ele.getAge()==0 || ele.getAges()==7).collect(Collectors.toList()).forEach(ele->System.out.println("Father age  "+ele.getAges()+ "   Dauther Age is   "+ele.getAge()));
-		
+		companyCEODTOs.stream().filter(ele->ele.getDaugtherDTO().getAge()==0).collect(Collectors.toList()).forEach(ele->System.out.println("Father Age is :  "+ele.getAges() +"   dauther age is :" +ele.getDaugtherDTO().getAge()));
 	}
 
 }

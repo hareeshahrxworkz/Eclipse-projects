@@ -10,12 +10,13 @@ public class CompanyCEODTO {
 	private String country;
 	private String qualification;
 	private boolean married;
+	private DaugtherDTO daugtherDTO;
 
 	public CompanyCEODTO() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public CompanyCEODTO(String names, String company, int ages, String country, String qualification, boolean married) {
+	public CompanyCEODTO(String names, String company, int ages, String country, String qualification, boolean married,DaugtherDTO daugtherDTO) {
 		super();
 		this.names = names;
 		this.company = company;
@@ -23,12 +24,31 @@ public class CompanyCEODTO {
 		this.country = country;
 		this.qualification = qualification;
 		this.married = married;
+		this.daugtherDTO=daugtherDTO;
 	}
+
+	public DaugtherDTO getDaugtherDTO() {
+		return daugtherDTO;
+	}
+
+	public void setNames(String names) {
+		this.names = names;
+	}
+
+	public void setAges(int ages) {
+		this.ages = ages;
+	}
+
+	public void setDaugtherDTO(DaugtherDTO daugtherDTO) {
+		this.daugtherDTO = daugtherDTO;
+	}
+
+	
 
 	@Override
 	public String toString() {
-		return "CompanyCEODTO [name=" + names + ", company=" + company + ", age=" + ages + ", country=" + country
-				+ ", qualification=" + qualification + ", married=" + married + ", daugtherDTO=]";
+		return "CompanyCEODTO [names=" + names + ", company=" + company + ", ages=" + ages + ", country=" + country
+				+ ", qualification=" + qualification + ", married=" + married + ", daugtherDTO=" + daugtherDTO + "]";
 	}
 
 	@Override

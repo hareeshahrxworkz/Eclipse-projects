@@ -2,7 +2,7 @@ package com.xworkz.pizza.dto;
 
 import java.io.Serializable;
 
-public class DaugtherDTO extends CompanyCEODTO  implements Serializable{
+public class DaugtherDTO   implements Serializable{
 	private String name;
 	private long mobileNo;
 	private int age;
