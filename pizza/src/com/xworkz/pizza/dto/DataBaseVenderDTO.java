@@ -34,8 +34,8 @@ public class DataBaseVenderDTO  implements Serializable{
 			if (obj instanceof DataBaseVenderDTO) {
 				DataBaseVenderDTO dataBaseVenderDTO = (DataBaseVenderDTO) obj;
 				if (dataBaseVenderDTO.getName().equals(this.name)
-						&& dataBaseVenderDTO.getDevelopedBy().equals(this.developedBy)
-						) {
+						&& dataBaseVenderDTO.getDevelopedBy().equals(this.developedBy)&&this.type==(dataBaseVenderDTO.getType()))
+						 {
 
 					System.out.println("Cheacking Sucessfully ");
 					return true;

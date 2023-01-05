@@ -48,11 +48,7 @@ public class PalaceDTORunner {
 		
 
 		Collection<DaugtherDTO> daugtherDTOs = new LinkedList<DaugtherDTO>();
-//		daugtherDTOs.add();
-//		daugtherDTOs.add);
-//		daugtherDTOs.add();
-//		daugtherDTOs.add();
-//		daugtherDTOs.add();
+
 
 //	find all the properties Palace DTO which is Not Destroyed	
 
@@ -74,13 +70,14 @@ public class PalaceDTORunner {
 
 		System.out.println(System.lineSeparator());
 		System.out.println("find all Databasee venderDTo  Convert DevelopedBy Upper case And Print all Dto");
+		dataBaseVenderDTOs.stream().map(ele->ele.getDevelopedBy().toUpperCase()).collect(Collectors.toList()).forEach(ele->System.out.println(ele));
 
 //	Find All DataBaseVenderDto where licenceCost less than 100 and Type is SQl
 		System.out.println(System.lineSeparator());
 		System.out.println("Find All DataBaseVenderDto where licenceCost less than 100 and Type is SQl");
-		dataBaseVenderDTOs.stream().filter(ele -> ele.getLicenceCost() < 100 && ele.getType().equals("SQL"))
-				.collect(Collectors.toList()).forEach(ele -> System.out.println(ele));
+		long anc=dataBaseVenderDTOs.stream().filter(ele ->ele.getLicenceCost() < 100).count();
 
+		System.out.println("Counting Dtaabaess   :"+anc);
 // print all DatabaseVendor Dto Types
 		System.out.println(System.lineSeparator());
 		System.out.println(" print all DatabaseVendor Dto Types");
@@ -89,17 +86,14 @@ public class PalaceDTORunner {
 // print detiles of companyCEO Dtos Daathoughter Dto
 		System.out.println(System.lineSeparator());
 		System.out.println("print detiles of companyCEO Dtos Daathoughter Dto");
-		companyCEODTOs.stream().collect(Collectors.toList()).forEach(ele -> System.out.println(ele));
-		System.out.println(System.lineSeparator());
-		System.out.println("Dauthor dtos");
-		daugtherDTOs.stream().collect(Collectors.toList()).forEach(ele -> System.out.println(ele));
+		companyCEODTOs.stream().map(ele->ele).collect(Collectors.toList()).forEach(ele->System.out.println(ele));
 
-//	print all Daughtor Dto names Of Company Ceos
+//	print all Company Dto names Of daughter  Dtos
 
 		System.out.println(System.lineSeparator());
-		System.out.println("print all Daughtor Dto names Of Company Ceos");
-		daugtherDTOs.stream().map(ele -> ele.getName()).collect(Collectors.toList())
-				.forEach(ele -> System.out.println(ele));
+		System.out.println("print all Company Dto names Of Daughther Dto");
+		companyCEODTOs.stream().map(ele -> ele.getDaugtherDTO()).collect(Collectors.toList())
+				.forEach(ele -> System.out.println(ele.getName()));
 
 //	Get toatal CompanyDtos where age is Gretherthan 30
 		System.out.println(System.lineSeparator());

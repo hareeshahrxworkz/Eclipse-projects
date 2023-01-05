@@ -8,7 +8,6 @@ public class DaugtherDTO   implements Serializable{
 	private int age;
 	private boolean commited;
 	private boolean alive;
-	private CompanyCEODTO ceodto;
 	public DaugtherDTO() {
 		// TODO Auto-generated constructor stub
 	}
@@ -57,13 +56,7 @@ public class DaugtherDTO   implements Serializable{
 	
 	
 
-	public CompanyCEODTO getCeodto() {
-		return ceodto;
-	}
-
-	public void setCeodto(CompanyCEODTO ceodto) {
-		this.ceodto = ceodto;
-	}
+	
 
 	public String getName() {
 		return name;
