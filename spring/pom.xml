@@ -4,14 +4,15 @@
   <artifactId>spring</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <properties>
-  <springVersion>5.3.24</springVersion></properties>
+  <springVersion>5.3.24</springVersion>
+  </properties>
   <dependencies>
   <dependency>
-  
   <groupId>org.springframework</groupId>
-  <artifactId>spring.context</artifactId>
+  <artifactId>spring-context</artifactId>
   <version>${springVersion}</version>
-  </dependency></dependencies>
+  </dependency>
+  </dependencies>
   
   <build>
     <sourceDirectory>src</sourceDirectory>
