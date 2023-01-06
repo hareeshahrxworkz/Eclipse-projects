@@ -1,0 +1,29 @@
+DDL statements (DATA DEFINITION  LANGAUGE)
+IT IS USED FOR CREATE and manage the structure of the database 
+
+1) Create Create used to create the database and table
+
+2)Alter alter commend used to add nuw column to existing table
+b)Rename the column name+
+c)to drop the column from table
+d)to modify the column data type
+
+
+3)Drop to drop the table from database
+
+4)Truncate tuncate the data from table
+
+
+
+used to maintain and  manage the insede of the table 
+
+
+insert insert data into table 
+delete delete data from the table
+select fetch the data from the table
+update is used to modify/update from the inside the table 
+syntax for update 
+
+
+update table tablename  set
+
