@@ -1,13 +1,17 @@
 package com.xworkz.pizza.boot;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
 import java.util.TreeSet;
 
 public class Malls {
 
 	public static void main(String[] args) {
 
-		Collection<String> malls=new TreeSet<String>();
+		List<String> malls=new LinkedList<String>();
 		
 		String mallName="LuLu International Shopping Mall, Kochi";
 		String mallName1="DLF Mall of India, Noida";
@@ -91,9 +95,29 @@ public class Malls {
 		malls.add(mallName39);
 
 		System.out.println("Before  clearing collection mall   :"+malls.size());
-		malls.clear();
+//		malls.clear();
 		System.out.println("After  clearing collection mall   :"+malls.size());
 
+		
+		ListIterator<String> iterator=malls.listIterator();
+		while (iterator.hasNext()) {
+			String string = (String) iterator.next();
+			System.out.println(string);
+
+			
+		}
+		System.out.println("reverse order ///////////////////////////////////////////////");
+		
+		while(iterator.hasPrevious())
+		{
+		
+			String ref=iterator.previous();
+			System.out.println(ref);
+			
+		}
+		
+		
+		
 		
 		
 	}
