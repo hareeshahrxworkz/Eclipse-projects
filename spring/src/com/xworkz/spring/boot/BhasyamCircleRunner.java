@@ -32,7 +32,7 @@ public class BhasyamCircleRunner {
 	public static void main(String[] args) {
 
 		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringConfiguaration.class);
-We
+
 		Circle ref = applicationContext.getBean(Circle.class);
 		System.out.println(ref.toString());
 		System.out.println(System.lineSeparator());

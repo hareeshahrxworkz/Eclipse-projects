@@ -7,10 +7,6 @@ public class Hospital {
 	public Hospital() {
 		System.out.println("Hospital Constructor running");
 	}
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return "Hospital";
-	}
+
 
 }

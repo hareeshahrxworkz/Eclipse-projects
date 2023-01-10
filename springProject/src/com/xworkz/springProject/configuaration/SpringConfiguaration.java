@@ -75,28 +75,28 @@ public class SpringConfiguaration {
 	}
 
 	@Bean
-	public double getprice() {
+	public Double getprice() {
 		return 20.0;
 	}
 
 	@Bean
-	public double getSize() {
+	public Double getSize() {
 		return 6.5;
 	}
 
 	@Bean
-	public double getlength() {
+	public Double getlength() {
 		return 5.6;
 
 	}
 
 	@Bean
-	public double getWidth() {
+	public Double getWidth() {
 		return 890.2;
 	}
 
 	@Bean
-	public double gethight() {
+	public Double gethight() {
 		return 8.32;
 	}
 
