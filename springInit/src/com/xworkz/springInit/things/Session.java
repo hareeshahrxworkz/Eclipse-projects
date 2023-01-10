@@ -8,7 +8,6 @@ public class Session {
 	private String name;
 	private String duration;
 	private String startingMonth;
-	
 
 	public Session() {
 		System.out.println("Sesion Constructor Running");
@@ -19,12 +18,12 @@ public class Session {
 		this.name = name;
 	}
 
-@Value("2 Hour")
+	@Value("2 Hour")
 	public void setDuration(String duration) {
 		this.duration = duration;
 	}
 
-@Value("august")
+	@Value("august")
 	public void setStartingMonth(String startingMonth) {
 		this.startingMonth = startingMonth;
 	}
@@ -33,19 +32,17 @@ public class Session {
 		return name;
 	}
 
-
 	public String getDuration() {
 		return duration;
 	}
 
-
 	public String getStartingMonth() {
+
+		Session session = new Session();
+		session.setName("SQl");
+		session.setDuration("3Hours");
+		session.setStartingMonth("may");
 		return startingMonth;
 	}
-
-
-	
-	
-	
 
 }
