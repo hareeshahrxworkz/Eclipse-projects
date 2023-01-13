@@ -41,6 +41,8 @@ public class MovieRunner {
 		company.company();
 		Location location = applicationContext.getBean(Location.class);
 		location.location();
+		Battery battery=applicationContext.getBean(Battery.class);
+		battery.Batterycapacity();
 
 	}
 

@@ -10,8 +10,7 @@ public class Camara {
 	private Lens lens;
 	@Autowired
 	private Battery battery;
-	@Autowired
-	private Capacity capacity;
+	
 
 	public Camara() {
 		System.out.println("Running Constructor Camara");
@@ -22,7 +21,6 @@ public class Camara {
 		System.out.println("Camara =================================================");
 		System.out.println("Camara Lens Hash code is  : " + lens.hashCode());
 		System.out.println("Camara Battery Hash code is   : " + battery.hashCode());
-		System.out.println("Capacity hash code is   : " + capacity.hashCode());
 
 	}
 
