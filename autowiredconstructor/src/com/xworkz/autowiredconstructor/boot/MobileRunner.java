@@ -22,7 +22,10 @@ public class MobileRunner {
 		map.put("Lava", 50000);
 		map.put("Oppo", 645200);
 		map.put("Collpad", 58200);
+		
+		map.forEach((a,b)->System.out.println(a +" "+b));
 
+		System.out.println("+++++++++++++++++++++++++++++++++");
 		Set<Entry<String, Integer>> ref = map.entrySet();
 		ref.forEach(e -> System.out.println(e.getKey().toUpperCase() + "   " + e.getValue()));
 		System.out.println("======================================================");
