@@ -1,0 +1,206 @@
+1.)
+
+collection is a gorup references to store homoginious and hetroginous element.
+
+hirarchy of collection is 
+
+
+Iterable --> extends-->collection--> extends --->list implements  array list,LinkedList.
+						collection--> extends --->set implemenrts Hash Set,LinkedHashSet,treeSet.
+						collection--> extends --->queue implements LinkedList.
+						
+						
+						
+main Interfaces is  collection
+collection extends List and set and queue
+
+main diffrence is collection have some methods add(),remove(),size(),isempty,set,
+other implements have same methods with additional methods 
+
+List  						    					set
+
+it allows Duplicate         			 does not  allows Duplicate
+List is index based						set is not index based
+it is positional acces					it does not positional access
+it is maintain insertion order			does not maintain insertion order.
+contines irteretor methods				does not contian  irteretor methods
+
+
+
+
+2).
+Map is a group of references which the form of to store key,And Values, of every entry.
+
+Map interface having 5 implements 
+
+HashMap,HashTable,treeMap,LinkedHashMap,Properties.
+
+
+
+3.)				 Hashmap     					           						treeMap
+
+	HashMap contains value based on the key.						TreeMap also contains value based on the key.
+	It may have a single null key and multiple null values.			TreeMap is sorted by keys.
+	HashMap does not maintain order while iterating.				It contains unique elements
+	It contains unique elements.									It cannot have a null key but have multiple null values.
+	it works on the principle of hashing.							Keys are in ascending order.
+	
+	
+	
+4.)   hash map implementation of hashCode() is because there is not any direct method in java to  reference of the object
+
+
+6.) 
+streem<String> name  =streem.of("vinoda");
+
+name.streem.map(e->e.ToCharAT()).foreach(e->system.out.println(e));
+
+
+7.)splietitor is a  interface in java splictor method introduced in java 8
+
+
+8.)String operetions in streem is:
+
+	
+	start with 
+	ends withto lowercase
+	contains
+	equals
+	isupper
+	islower
+	
+	
+	
+9.) Spring is a open source framework it provide managing a object it sopport developing application.
+
+
+10.)Dependency injection is a reference of object  to spring framework
+to achive using @autowired and associte with component
+
+
+11.)
+bean inject using spring bean content above bean menction @bean  using autowired above property or constructor or setter method
+
+two ways to inject bean 
+
+constructor based bean injectionsetter based injection
+
+
+12
+yes more than one configuration have spring but menction exclude the classes
+
+Spring ComponentScan(Basepackage ="com.xworkz.vinoda" excludefilters={@componentScan.filter={configuration classs and componentclasses}});
+
+
+
+13).
+string builder 
+
+string builder is synchronized
+String Builder side thread is safe
+String Builder lowest performance comparing String Buffer
+
+String Buffer
+string Buffer is not synchronized
+String buffer side  thread is not safe
+String Buffer Hoghest performance comparing String Builder
+
+14.) 
+
+
+BeanFactory
+
+
+Beanfactory is used to validation purpose to used
+
+Application Context
+
+it used to Creating instance and managing a spring 
+
+
+15.)
+1  Spring Aop
+
+Spring Aop is stand for ASPECT ORIENTED PROGRAMMING  
+
+2) Ioc is Inversion Of Control  it is used to managing a spring object
+
+3).POJO
+
+
+POJO stand for Plain Old Java Object it is nothing special it has Property Getter And Setter Methos of POJO.
+
+
+
+4)
+@component 
+
+it Creatring And Managing A spring  Object
+5)ComponentScan 
+
+it is a scan base package contains Components of a Spring 
+
+6@Bean 
+
+@bean object managed By A Spring 
+
+
+
+16.) 
+Map<String ,int> Entrys=New HashMap<String ,int>();
+put("India" ,91);
+put("CHINA" ,126);
+put("USA" ,081);
+put("CANADA" ,121);
+put("BANGLADESH" ,120);
+
+Set<Entry<String ,int>> ref=Entrys.entityset();
+
+ref.streem.foreach(e->system.out.println(e->e.getkey+""+e.values));
+
+ref.Streem.filter(e->e.getKey("India")).remove().foreach(e->system\.out.println(e->e.getKey+""+e.values));
+
+
+
+17).
+
+1 Meven 
+it is used to creating meven project and add And Download the dependency;
+
+3Tomcat tomcat is a server it is used to run a web applications on the server.
+
+4. Qurcus
+
+Qurcus is used to spring is valaditing a properties;
+
+5 SonarQube 
+SonarQube is used to To cheak Code is industry standres maching or not
+
+6. Server
+
+
+Server is a service to operetion on request and response the service ;
+
+
+20
+
+Collection <int> element=new LinkedList<int>();
+element.add(10);
+element.add(50);
+element.add(40);
+element.add(30);
+element.add(20); 
+
+element.remove(0,10);
+element.remove(5,20);
+
+
+
+
+
+
+	
+	
+	
+
+

@@ -108,80 +108,69 @@ public class StarPrinting {
 			System.out.println("");
 
 		}
-		
-		
-		
-		
-		
 
 		System.out.println("left Rectangle printing");
-		
+
 		for (int i = 1; i <= n; i++) {
 			for (int j = n - 1; j >= i; j--) {
-				if(j==2)
-				{
+				if (j == 2) {
 					System.out.print("Hareesha");
-				}
-				else {
-				
-				System.out.print(j);
+				} else {
+
+					System.out.print(j);
 				}
 			}
 			for (int k = 1; k <= i; k++) {
-				if(k==2)
-				{
+				if (k == 2) {
 					System.out.print("Hareesha");
-				}
-				else {
-				System.out.print(k);
+				} else {
+					System.out.print(k);
 
-			}
 				}
+			}
 			System.out.println("");
 
 		}
-		
-		
-		
+
 		System.out.println("reight down Rectangle printing");
-		for (int i =n-1; i >= 1 ; i--) {
+		for (int i = n - 1; i >= 1; i--) {
 			for (int j = n - 1; j >= i; j--) {
 
 				System.out.print(" ");
 			}
 			for (int k = 1; k <= i; k++) {
 
-				System.out.print(k);
+				System.out.print(k + " ");
 			}
 			System.out.println("");
 
 		}
-		
-		
-		System.out.println("down triangle  printing");
-		for (int i =n-1; i >= 1 ; i--) {
-			for (int j = n - 1; j >= i; j--) {
 
+		System.out.println("up triangle  printing");
+		for (int i = 0; i <= n; i++) {
+			for (int j = n - i; j >= 1; j--) {
 				System.out.print(" ");
 			}
 			for (int k = 1; k <= i; k++) {
-				
-				
-
-				System.out.print(k+" ");
+				System.out.print("* ");
 			}
+
 			System.out.println("");
+		}
+
+		for (int i = n - 1; i >= 1; i--) {
+			for (int j = n - 1; j >= i; j--)
+
+			{
+				System.out.print(" ");
+
+			}
+			for (int k = 1; k <= i; k++) {
+				System.out.print("* ");
+			}
+			System.out.println(" ");
 
 		}
-		
-		
-		
-
-		
-		
-		
-		
-		
 
 	}
 
