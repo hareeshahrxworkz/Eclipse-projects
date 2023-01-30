@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class space {
 
 	public static void main(String[] args) {
-       scanner sc =new Scanner() 	;	
-		
+		Scanner sc = new Scanner(System.in);
+		String scr = sc.nextLine();
 		int spaceCount = 0;
-		for(char c: str.toCharArray()) {
-			if (c==' ') {
+		for (char c : scr.toCharArray()) {
+			if (c == ' ') {
 				spaceCount++;
 			}
 		}
-				
-           System.out.println(spaceCount);
+
+		System.out.println(spaceCount);
 	}
 
 }

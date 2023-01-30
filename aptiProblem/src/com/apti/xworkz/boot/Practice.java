@@ -69,9 +69,9 @@ public class Practice {
 				System.out.println(nu);
 
 			} else if (ch >= '0' && ch <= '9') {
-				
-				
-				System.out.println((char) ((char) ch+0));
+
+				int a = (char) ((char) ch + 0);
+				System.out.println((char) a);
 
 			}
 		}
